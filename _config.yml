@@ -1,0 +1,37 @@
+---
+title: Learner
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+       extensions: [smart]
+permalink: "/:title.html"
+paginate: 5
+port: 3000
+safe: true
+
+# edit here to achieve your personal greatness
+url: http://sumit.blog
+baseurl: 
+author: Sumit Murari
+description: Personal blog
+avatar: profile.png
+email: hello@sumit.blog
+github: murarisumit
+aboutme: murarisumit
+linkedin: murarisumit
+stackoverflow: 2735833
+google_analytics: UA-64117471-1
+gems:
+- jekyll-paginate
+- jekyll-admin
+
+# needed for travis-ci build
+exclude: [vendor]
