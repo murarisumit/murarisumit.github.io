@@ -1,6 +1,6 @@
 ---
 title: AWK minimal tutorial
-date: 2016-04-25 00:00:00 Z
+date: 2016-04-25 00:00:00
 layout: post
 ---
 
@@ -20,6 +20,8 @@ AWK is an interpreted programming language. It's designed for text processing. I
 *   Check for pattern, if found print first word: `awk ' /pattern/ {print $1}' input.txt`
 
 *   If _str_ matches the 2nd word, print 3rd word: `awk '$2=="str" {print $3}' input.txt` 
+
+*   If 1st word **partly** matches _str_, then print 3rd word: `awk '$1 ~ "str" {print $3}' input.txt` 
 
 *   Ignorecase string comparision, if 2nd element is "find/Find/fInd/fiND", then print third element :
   
