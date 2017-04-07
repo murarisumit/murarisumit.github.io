@@ -9,7 +9,7 @@ layout: post
 Examples using subprocess
 
 * Subprocess to execute and get output by executing `dpkg -l` .
-<script src="https://gist.github.com/sumit-murari/1b07f9dbcff3958a22a502bc57504d92.js"></script>
+<script src="https://gist.github.com/{{site.github}}/1b07f9dbcff3958a22a502bc57504d92.js"></script>
 
 * Piping command using subprocess by executing `dpkg -l | grep lsof`.
-<script src="https://gist.github.com/sumit-murari/da6d7e3f54cab9474b935d3a75c23e8a.js"></script>
+<script src="https://gist.github.com/{{site.github}}/da6d7e3f54cab9474b935d3a75c23e8a.js"></script>
