@@ -18,12 +18,12 @@ port: 3000
 safe: true
 
 # edit here to achieve your personal greatness
-url: http://sumit.blog
+url: http://murarisumit.in
 baseurl: 
 author: Sumit Murari
 description: Personal blog
 avatar: profile.png
-email: hello@sumit.blog
+email: email@murarisumit.in
 github: murarisumit
 aboutme: murarisumit
 linkedin: murarisumit
