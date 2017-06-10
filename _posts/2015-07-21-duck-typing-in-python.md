@@ -6,7 +6,7 @@ layout: post
 
 I was trying to understand what duck typing in python, but what I understood was simple.
 
-Duck Typing is an **After the Fact** assessment whereas Static Typing is a **Before the Fact** assessment. In static typing, we can achieve in two ways – via an interface or a class. 
+Duck Typing is an **After the Fact** assessment whereas Static Typing is a **Before the Fact** assessment. In static typing, we can achieve in two ways – via an interface or a class.
 
 A class will state what an instance or its children will have. With an interface, it states what something *can* be at least in part. Both of these determinations can be made before they exist. **With Duck Typing, we only know what something is until after it has been created.**
 
@@ -52,7 +52,7 @@ but in duck-typed language.
     }
     N(new Duck()); // Legal
     N(new OtherDuck()); // Legal!
-    N(123); // Illegal! 
+    N(123); // Illegal!
 
 
 it's legal bacause Because `If it WalksLikeaDuck and talks like a duck, it must be a duck`

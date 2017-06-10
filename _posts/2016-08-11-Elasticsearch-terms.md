@@ -9,9 +9,9 @@ Elasticsearch is a distributed search engine. You dump data to some elasticsearc
 > Under the hood, it uses Lucene(search engine library). It creates multiple Lucene indexes( or shard in elasticsearch) for data and distributes them across the nodes. To resolves the search-query sent to elasticsearch, it queries all lucene indexes and combines results and gives back the result.
 
 
-* **Cluster** – An Elasticsearch cluster consists of *one or more nodes*, working together to search and store data and is identifiable by its cluster name. 
+* **Cluster** – An Elasticsearch cluster consists of *one or more nodes*, working together to search and store data and is identifiable by its cluster name.
 
-* **Node** – A single Elasticsearch instance. In most environments, each node runs on a separate box or virtual machine. 
+* **Node** – A single Elasticsearch instance. In most environments, each node runs on a separate box or virtual machine.
 It can be one of 4 types.
 
     * *Master* -- Master only node meaning it can work towards cluster related tasks such as shard allocation in the event of new machine availability and/or machine unavailability (instance failure).
@@ -35,8 +35,8 @@ It can be one of 4 types.
 
 
 
-> * Within index we can have documents of **multiple type**. 
-> * **Type** you can think as a table in RDBMS. 
+> * Within index we can have documents of **multiple type**.
+> * **Type** you can think as a table in RDBMS.
 > * Type has a name and a mapping and each document belongs to some index and is of certain type.
 > * A document is a basic unit of information, json data you see is a document.
 
@@ -46,7 +46,7 @@ It can be one of 4 types.
     * Shards are shared across the node to provide distributed search(they're are part of a index).
     * Shards are of two types; *Primay*, *Replica*.
     * Primary's are the one that you can specify only once while creating the index, and replica's are copy of primary shards, which can be altered after index creation.
-    * Every time you index a document, elasticsearch will decide which primary shard is supposed to hold that document and will index it there. **Primary shards are not copy of the data, they are the data!**    
+    * Every time you index a document, elasticsearch will decide which primary shard is supposed to hold that document and will index it there. **Primary shards are not copy of the data, they are the data!**
     * Every elasticsearch index is composed of at least one primary shard, since that's where the data is stored.
     * **Replica**
     	* Replica is shard which is exact copy of primary shard i.e. it'll contain the same data. Replicas are used to increase search performance and for fail-over.
