@@ -2,6 +2,8 @@
 title: Unicode little introduction
 date: 2016-07-29 00:00:00 Z
 layout: post
+tags:
+- misc.
 ---
 
 > Unicode

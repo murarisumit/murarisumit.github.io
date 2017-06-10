@@ -2,6 +2,8 @@
 title: GREP minimal tutorial
 date: 2016-08-07 00:00:00 Z
 layout: post
+tags:
+- GNU/Linux
 ---
 
 ##### Grep command is used for searching the content of file returning the result.
@@ -12,7 +14,7 @@ layout: post
     * -i : Ignore case
 
 * Search in directory: `grep -nr search_term directory`
-    * -r : searches recursively in given directory 
+    * -r : searches recursively in given directory
 
 * List all the file containing the search_term: `grep -l "search_term" *`
     * -l : Input needs to be list of files

@@ -4,28 +4,18 @@ layout: layout
 ---
 
 <div class="container">
-<h3>...things I don't want to forget </h3>
-    <h4>
-        {% for tag in site.tags %}
-         <span class="label label-success">{{ tag | first }}</span>
-        {% endfor %}
-    </h4>
-  <div class="panel panel-default">
-    <div class="panel-body">
-		{% for post in site.posts %}
-			<div class="row">
-				 <div class="col-sm-4 col-md-4 col-lg-4">
-					 <h5 style="text-align: right">
-					 	{{ post.date | date: "%B %e, %Y" }}
-					 </h5>
-				 </div>
-				 <div class="col-sm-8 col-md-8 col-lg-8">
-					 <h5 style="text-align: left">
-					 	<strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
-					 </h5>
-				 </div>
-			</div>
-	    {% endfor %}
-	</div>
-  </div>
+	<h3>...things I don't want to forget </h3>
+  <center> 
+		{% for tag in site.tags%}
+			<h4 style="text-align: center"><a name="{{ tag | first }}">{{ tag | first }}</a></h4>
+			{% for posts in tag %}
+				{% for post in posts %}
+					<div class="row">
+							<h5 style="text-align: center"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </h5>
+					</div>
+				{% endfor %}
+			{% endfor %}
+			<hr/>
+		{% endfor %}
+  </center>
 </div>

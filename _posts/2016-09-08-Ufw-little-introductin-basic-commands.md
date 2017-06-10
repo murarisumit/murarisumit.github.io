@@ -2,9 +2,7 @@
 title: UFW basic command snippets
 date: 2016-09-08 00:00:00 Z
 tags:
-- GNU\Linux
-- Technical
-- Security
+- GNU/Linux
 layout: post
 ---
 
@@ -17,17 +15,17 @@ UFW(uncomplicated firewall) is the simple easy firewall to manage and protect yo
 
 * Add a rule to firewall: It will allow the connection to machine given on specific port(here 7865).
     * `sudo ufw allow 7865/tcp`
-    * `sudo ufw allow 22/tcp` 
+    * `sudo ufw allow 22/tcp`
 
 * Enable Ufw: By default ufw will be started on your machine, but **ufw itself will not be in enabled state**.
-    * To enable it: `sudo ufw enable`  
+    * To enable it: `sudo ufw enable`
 
-   <hr/> 
-	 *Remember to enable incoming ssh connection to machine, else you'll not be able to login to machine*  
+   <hr/>
+	 *Remember to enable incoming ssh connection to machine, else you'll not be able to login to machine*
 	 <hr/>
 
 
-* Reject all connections to machine: It will implicitly reject all the connection, that are not allowed by the firewall. 
+* Reject all connections to machine: It will implicitly reject all the connection, that are not allowed by the firewall.
     * `sudo ufw default reject incoming`
 
 * View configured rules in ufw: It'll list all the allowed/rejected rules for ufw.

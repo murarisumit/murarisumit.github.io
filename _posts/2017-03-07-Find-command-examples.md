@@ -2,9 +2,7 @@
 title: find command basic exmaples
 date: 2017-03-07 00:00:00 Z
 tags:
-- linux
-- basic
-- gettting-started
+- GNU/Linux
 layout: post
 ---
 
@@ -18,7 +16,7 @@ layout: post
     * It will list for file in  dir_name directory with .txt extension
 
 * Search file in directory: `find ./dir_name -iname "*.txt"`
-    * -iname search while ignoring case 
+    * -iname search while ignoring case
 
 * Search file in directory: `find ./test -not -name "*.txt"`
     * Lists all file which don't have .txt in filename(i.e. list all files execept .txt files)
@@ -33,7 +31,7 @@ layout: post
 
 * **Find and exec**: You can use find command to list all files with criteria and perform operation on the all the output files.
     * List file with specific criteria and delete them :  `find ./dir_name -name "*.txt" -exec rm -rf {} \;`
-        * `{}`: represent for each output for criteria 
+        * `{}`: represent for each output for criteria
         * `\;`  : Termination of command
 
 

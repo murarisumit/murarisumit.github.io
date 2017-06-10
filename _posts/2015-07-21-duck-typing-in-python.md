@@ -2,6 +2,8 @@
 title: Understanding duck typing in python
 date: 2015-07-21 00:00:00 Z
 layout: post
+tags:
+- Python
 ---
 
 I was trying to understand what duck typing in python, but what I understood was simple.
