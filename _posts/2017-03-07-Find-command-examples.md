@@ -28,6 +28,7 @@ layout: post
 * Find files by file size:
     * Find all file greater than 50MB: `find / -size 50M`
     * Files greater than 50MB and less than 100MB: `find / -size +50M -size -100M`
+    * Files greater than 50MB and are not debian packages: `find / -size +50M ! -name "*.deb" -ls`
 
 * **Find and exec**: You can use find command to list all files with criteria and perform operation on the all the output files.
     * List file with specific criteria and delete them :  `find ./dir_name -name "*.txt" -exec rm -rf {} \;`
