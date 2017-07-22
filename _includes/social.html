@@ -21,7 +21,12 @@
     {% endif %}
 
     {% if site.stackoverflow %}
+    <!-- stackoverflow userid here -->
         <a href="http://stackoverflow.com/users/{{site.stackoverflow}}" target="_blank" ><i class="fa fa-stack-overflow"></i></a>
     {% endif %}
+    {% if site.stackoverflow_story %}
+        <a href="http://stackoverflow.com/story/{{site.stackoverflow_story}}" target="_blank" ><i class="fa fa-stack-overflow"></i></a>
+    {% endif %}
+
 	</h4>
 </div>

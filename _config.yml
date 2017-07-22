@@ -25,9 +25,10 @@ description: Personal blog
 avatar: profile.png
 email: email@murarisumit.in
 github: murarisumit
-aboutme: murarisumit
+# aboutme: murarisumit
 linkedin: murarisumit
-stackoverflow: 2735833
+# stackoverflow: 2735833
+stackoverflow_story: murarisumit
 google_analytics: UA-64117471-1
 gems:
 - jekyll-paginate
