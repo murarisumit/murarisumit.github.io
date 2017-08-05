@@ -8,7 +8,8 @@ tags:
 
 Elasticsearch is a distributed search engine. You dump data to some elasticsearch-index, and then you can make http queries to search the data.
 
-> Under the hood, it uses Lucene(search engine library). It creates multiple Lucene indexes( or shard in elasticsearch) for data and distributes them across the nodes. To resolves the search-query sent to elasticsearch, it queries all lucene indexes and combines results and gives back the result.
+> Under the hood, it uses Lucene(search engine library). It creates multiple Lucene indexes( or shard in elasticsearch) for data and distributes them across the nodes. To resolves the search-query sent to elasticsearch, it queries all lucene indexes and combines results and gives back the result. [Link for Youtube
+video](https://www.youtube.com/watch?v=PpX7J-G2PEo) for learning how **elasticsearch internals**.
 
 
 * **Cluster** – An Elasticsearch cluster consists of *one or more nodes*, working together to search and store data and is identifiable by its cluster name.
