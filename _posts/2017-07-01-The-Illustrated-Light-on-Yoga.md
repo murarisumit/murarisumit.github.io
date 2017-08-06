@@ -3,7 +3,7 @@ title: Notes on The Illustated Light on Yoga
 date: 2016-08-11 00:00:00 Z
 layout: post
 tags:
-- misc.
+- books
 ---
 
 Yoga is one of the six orthodox systems of indian philisophy. It was collated, co-ordinated and systemimzed by Patanjali in his classical work, the *Yoga Sutras*. 
