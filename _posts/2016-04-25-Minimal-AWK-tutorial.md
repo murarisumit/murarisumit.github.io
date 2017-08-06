@@ -1,6 +1,6 @@
 ---
 title: AWK minimal tutorial
-date: 2016-04-25 00:00:00
+date: '2016-04-24 12:00:00'
 layout: post
 tags:
 - GNU/Linux
@@ -29,17 +29,23 @@ AWK is an interpreted programming language. It's designed for text processing. I
 
      >  `awk '{ if (tolower($2) == "find") print $3}' input.txt`
 
-*   Variable in awk:
+**BEGIN, END and NR are some of [in-built variables](https://www.gnu.org/software/gawk/manual/html_node/Auto_002dset.html) in AWK**
 
+*   Variable in awk:
+	* **BEGIN** block runs only once and at beginning.
 	>  `awk -v name=Jerry 'BEGIN{printf "Name = %s\n", name}'`
 
 *   Add two numbers:
 
 	> `awk ' BEGIN { a = 50; b = 20; print "(a + b) = ", (a + b) }'`
 
-*   Increment operation:
+* Read number of lines in file.
+	* **END** block executes after executing all the awk codes.
+	* **NR** is in-built variable which line number is excuted.
+	> `awk 'END { print NR }' inputfile`
 
-	> `awk 'BEGIN { a = 10; b = ++a; printf "a = %d, b = %d\n", a, b }'`
+*  Using BEGIN, END and NR
+>`awk 'BEGIN{print "Begin";print "multiple"} {print "Line " NR ":" $0 }END{print "END"} inputfile`
 
 *   Looping and other construct are also there, which you can read from [here](http://www.tutorialspoint.com/awk/awk_loops.htm), but above basic stuff will get you started.
 
