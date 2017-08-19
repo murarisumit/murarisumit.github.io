@@ -32,6 +32,7 @@ stackoverflow_story: murarisumit
 google_analytics: UA-64117471-1
 gems:
 - jekyll-admin
+- jekyll-paginate
 
 # needed for travis-ci build
 exclude: [vendor]
