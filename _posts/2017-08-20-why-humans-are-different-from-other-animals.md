@@ -17,6 +17,13 @@ Few things that I need to think, I used to think humans are no different, no hig
 
 It's like rich(who have sense of safety) has think for others things because their basic needs are taken care of, but poor can't because if they're hungry, only thing that hungry guy can think of is food, morality and other things go out of line and so does care.  Many contradictory thought coming in mind, but for now will take a break will come with some other frame of mind and update it.
 
+
+One more paragraph from the book
+
+> All choices have consequences. Sita chose to cross Lakshman's line to feed a hungry man and ended up being kidnapped. Should she have followed the rules and stayed within the line? The Ramayana thus shows that it is not easy to chooose, just as it ca be very difficult to follow rules.
+> 
+> Every action is choice ; Every choice has consequences; Some are good, some are bad. 
+
  
 
 
