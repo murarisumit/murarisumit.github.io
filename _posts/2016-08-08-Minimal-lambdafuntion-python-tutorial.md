@@ -1,6 +1,6 @@
 ---
 title: Lambda Function python little introduction
-date: 2016-08-08 00:00:00 Z
+date: '2016-08-08 00:00:00 +0000'
 tags:
 - Python
 layout: post
@@ -46,6 +46,7 @@ map() applies the function `func` to all elements of sequence `seq`. It returns 
 
         F = map(fahrenheit, temp)
         C = map(celsius, F)
+	
 
 **With lambda**
 
@@ -89,5 +90,27 @@ Here the function will list the even fiboancei numbers
         >>> print result
         [0, 2, 8, 34]
 
+> **reduce()**
 
-**Refrence**: forgot the link, I took reference from
+Reduce function take the list as input and applies all the input. In other we reduce the list to single number applying a specific function. 
+
+
+	>>> from functools import reduce
+	>>> reduce(lambda x,y: x+y, [47,11,42,14])
+	114
+	>>>
+
+or 
+
+	>>> f = lambda a,b: a if (a > b) else b
+	>>> reduce(f, [47,11,42,102,13])
+	102
+	>>> 
+
+
+
+---
+**Reference:**
+
+* [http://www.python-course.eu/lambda.php](http://www.python-course.eu/lambda.php)
+
