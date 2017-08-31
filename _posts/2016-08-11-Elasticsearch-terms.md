@@ -1,6 +1,6 @@
 ---
 title: Elasticsearch basic terminologies
-date: 2016-08-11 00:00:00 Z
+date: '2016-08-11 00:00:00 +0000'
 layout: post
 tags:
 - misc.
@@ -51,10 +51,12 @@ It can be one of 4 types.
     * Primary's are the one that you can specify only once while creating the index, and replica's are copy of primary shards, which can be altered after index creation.
     * Every time you index a document, elasticsearch will decide which primary shard is supposed to hold that document and will index it there. **Primary shards are not copy of the data, they are the data!**
     * Every elasticsearch index is composed of at least one primary shard, since that's where the data is stored.
-    * **Replica**
-    	* Replica is shard which is exact copy of primary shard i.e. it'll contain the same data. Replicas are used to increase search performance and for fail-over.
-    	* Replica is never allocated on the same node where their primary is.
-    * You don't play with shard directly other than specifiying config values for **primary shard** and **replicas**
+   
+	 
+* **Replica**
+	* Replica is shard which is exact copy of primary shard i.e. it'll contain the same data. Replicas are used to increase search performance and for fail-over.
+	* Replica is never allocated on the same node where their primary is.
+	* You don't play with shard directly other than specifiying config values for **primary shard** and **replicas**
 
 
 

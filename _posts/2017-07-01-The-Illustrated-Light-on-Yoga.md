@@ -1,6 +1,6 @@
 ---
-title: Notes on The Illustated Light on Yoga 
-date: 2016-08-11 00:00:00 Z
+title: Notes on The Illustated Light on Yoga
+date: '2016-08-11 00:00:00 +0000'
 layout: post
 tags:
 - books
@@ -61,5 +61,5 @@ Mind is king of the senses, One who has conquered his mind, senses, passions, th
 
 **References**
 
-* **The illustrated light on Yoga by BKS IYENGER**
+* [The illustrated light on Yoga by BKS IYENGER](https://www.amazon.in/Illustrated-Light-Yoga-B-K-S-Iyengar/dp/8172236069)
 
