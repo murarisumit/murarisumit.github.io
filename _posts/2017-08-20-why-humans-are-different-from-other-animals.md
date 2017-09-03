@@ -7,7 +7,7 @@ date: '2017-08-20 01:40:36'
 
 Read this thought in the book "The GIRL who CHOSE" by Devdutt Pattanaik. He wrote --
 
->  Sita, her husband and her brother-in-law discovered in what ways animals are different from humans. Animals live by instinct. In order to survive, and to find food and mates, the strong use their strength and weak use their intelligence. They are programmed only to hlep their young, or other members of their own kind. Humans, however, can help anyone even strangers.
+>  Sita, her husband and her brother-in-law discovered in what ways animals are different from humans. Animals live by instinct. In order to survive, and to find food and mates, the strong use their strength and weak use their intelligence. They are programmed only to help their young, or other members of their own kind. Humans, however, can help anyone even strangers.
 > 
 > In the forest, there is no kindness or cruelty, no right or wrong - just the sruvival of the fittest. 
 > 
