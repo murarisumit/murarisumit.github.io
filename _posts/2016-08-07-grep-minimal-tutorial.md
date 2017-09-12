@@ -14,13 +14,14 @@ tags:
   * -i : Ignore case
 * Search in directory: `grep -nr search_term directory`
   * -r : searches recursively in given directory
-* List all the file containing the search_term: `grep -l "search_term" \*`
+* List all file with the search_term: `grep -l "search_term" \*`
   * -l : Input needs to be list of files
-* List all the lines **not** containing the search_term: `grep -nv "search_term" filename`
+* List all lines **not/invert-match** with the search_term: `grep -nv "search_term" filename`
 
-* List all file containing the search **in given directory**: `grep -lr search_term .`
+* List all file with the search_term **in given directory**: `grep -lr search_term .`
   * `.` represents current directory
-* Select only those matches that exactly match the whole line: `grep -xr tabular ..`
+* Select only matches that exactly match the whole line: `grep -xr tabular ..`
   * `..` represents the parent directory
 
-Reference: [http://www.uccs.edu/~ahitchco/grep/](http://www.uccs.edu/~ahitchco/grep/)
+Reference: 
+* [http://www.uccs.edu/~ahitchco/grep/](http://www.uccs.edu/~ahitchco/grep/)
