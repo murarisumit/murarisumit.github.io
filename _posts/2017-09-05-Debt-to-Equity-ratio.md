@@ -6,18 +6,18 @@ tags:
 layout: post
 ---
 
-The price/earnings (often shortened to the P/E ratio or the PER) is the ratio of a company's stock price to the company's earnings per share. The ratio is used in valuing companies. <sup><a href="https://en.wikipedia.org/wiki/Price%E2%80%93earnings_ratio"> wikipedia</a><sup>
+* Debt/Equity Ratio is a debt ratio used to measure a company's financial leverage.
 
+* Debt to Equity = Long-Term Debt/Shareholders’ Equity
 
-Companies with higher valuation, where investors are ready to pay today high today( high stock price), but earnings are not high today but investor believe that this company has potential to make earnings in future.  So higher stock price, but lesser earnings now so **PER** is high.
+* A lower debt to equity ratio usually implies a more financially stable business. 
+* For example, suppose a company has a total shareholder value of ₹300,000 and has ₹600,000 in liabilities. Its debt/equity ratio is then 2.00 (₹600,000 / ₹300,000), or 200%, indicating that the company has been heavily taking on debt and thus has high risk. Conversely, if it has a shareholder value of ₹600,000 and ₹300,000 in liabilities, the company’s D/E ratio is 0.5 (₹300,000 / ₹600,000), or 50.00%, indicating that the company has taken on relatively little debt and thus has low risk.
 
-Or it might be investors expect higher return of the company so they have purchased the stock at high prices which led to increase in **PER**, or sometimes it can also mean that price of stock is inflated. Sometimes markets are just inflated for large period of time too.
-
-![google-images](/static/img/per-ratio/per-ratio.jpg)
-So high **P/E** or **PER** ratio just says about market sentiments about the company. Today's P/E of 25 might be P/E of 15 is some years down the line as company has achieved growth(has made enough earning to compensate the price of stock).
-
-High P/E stocks are also called **Growth Stocks**, and low P/E ratio are called **Value stocks**.
+* If a company is using lot of debt is used to finance increased operations (high debt to equity), the company could potentially generate more earnings than it would have without this outside financing. 
+* It isn't generally bad, If this were to increase earnings by a greater amount than the debt cost (interest), then the shareholders benefit. 
+* However, if the cost of this debt financing ends up outweighing the returns that the company generates on the debt through investment and business activities, stakeholders’ share values may take a hit. If the cost of debt becomes too much for the company to handle, it can even lead to bankruptcy, which would leave shareholders with nothing.
 
 ---
 **Reference** : 
-* Image source: [http://www.tflguide.com/2010/11/sensex-pe-ratio.html](http://www.tflguide.com/2010/11/sensex-pe-ratio.html)
+* [http://www.investopedia.com/terms/d/debtequityratio.asp](http://www.investopedia.com/terms/d/debtequityratio.asp)
+
