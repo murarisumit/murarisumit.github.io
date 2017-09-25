@@ -24,6 +24,7 @@ author: Sumit Murari
 description: Personal blog
 avatar: profile.png
 email: email@murarisumit.in
+email_feedback: true
 github: murarisumit
 # aboutme: murarisumit
 linkedin: murarisumit

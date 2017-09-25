@@ -3,7 +3,7 @@ title: 'Black hole P1: mass_vs_matter_weight'
 date: '2017-08-25 02:18:53 +0000'
 layout: post
 tags:
-- 'curiosity '
+- curiosity
 ---
 
 This is the series of post I'm writing to understand what by black hole people mean .
@@ -16,17 +16,21 @@ This is the series of post I'm writing to understand what by black hole people m
 
 Let's start with part 1  
 
-**Matter** :  So everything we see around us is matter. Solid/liquid/gas is made of something(what it is that something, we can discuss it later), that thing/stuff is called matter.
+**Matter** :  
+* So everything we see around us is matter. Solid/liquid/gas is made of something(what it is that something, we can discuss it later), that thing/stuff is called matter.
+* In modern physics, matter is not a fundamental concept because a definition of it is elusive<sup>[wikipedia](https://en.wikipedia.org/wiki/Mass)</sup>
 
 ---
 
-**Mass** :  I read multiple defination of matter on internet. Each one was different and I was confused, [wikipedia](https://en.wikipedia.org/wiki/Mass) has one of the best documentation about all theories made about mass till now.
-
-Basic one :  
-* Mass is term for describing the amount of matter object has. 
+**Mass** :  
+* So as we said, everything is made of matter(something), to quantify that thing **mass** is used.
+* Mass is a property of a physical body.
+    * We take that every physical body has property called mass.
+    * ^We assume it and take if fundamental property like **charge on electron** to define everything around it.
+    * The mass of an object determines its acceleration in the presence of an applied force similar to charge in electro-magnetic field
+    * It's similar to [charge](/basic-electricity-concepts.html) in electro-dynamics, the basic property. Refer: [basic concepts on electricity](/basic-electricity-concepts.html)
+* In [Newtonian physics](https://en.wikipedia.org/wiki/Classical_mechanics), mass is term for describing the amount of matter object has. 
 * It is different than weight. 
-* For example: If we go anywhere to take rubix cube anywhere(moon/mars), it's remains the same, nothing changes. Amount of matter in it remains the same, but weight changes at it corresponds with gravity. 
-* In other words we quantify the matter(amount of matter does object has) by mass which remains the same everywhere.
 
 
 If you go deep down, there are still theories being made. [https://en.wikipedia.org/wiki/Mass](https://en.wikipedia.org/wiki/Mass) link has lot more info about it.
