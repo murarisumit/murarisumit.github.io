@@ -80,7 +80,6 @@ Basic concepts are covered up electricity are covered up, add will keep adding t
 
 ---
 Reference: 
-* [http://www.uccs.edu/~ahitchco/grep/](http://www.uccs.edu/~ahitchco/grep/)
 * [https://www.youtube.com/watch?v=x1-SibwIPM4](https://www.youtube.com/watch?v=x1-SibwIPM4)
 * [https://physics.stackexchange.com/questions/109535/what-is-charge](https://physics.stackexchange.com/questions/109535/what-is-charge)
 
