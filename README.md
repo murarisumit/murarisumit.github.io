@@ -1,9 +1,10 @@
 
-# Little blog
+# Please to keep the thoughts 
 
-Personal blog built with [Bootstrap](http://getbootstrap.com/), powered by [Jekyll](http://jekyllrb.com/) and freely
-hosted in [Github pages](https://pages.github.com/).
+[Personal website](www.murarisumit.in), powered by [Jekyll](http://jekyllrb.com/) and 
+freely hosted in [Github pages](https://pages.github.com/).
 
+* For local work, use the site variable `local: true` in config.yml, it'll use static bootstrap and jquery libs.
 
 
 ## Copyright & License

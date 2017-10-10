@@ -15,9 +15,11 @@
     {% endif %}
 
     <!-- Bootstrap -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
-    crossorigin="anonymous">
+    {% if site.local %}
+      <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/vendor/bootstrap-3.3.5/css/bootstrap.min.css" />
+    {% else %}
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    {% endif %}
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,36 +28,39 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-	<!-- Custom styles for this template -->
+    <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/syntax.css" />
-
-    <!-- Google Analytics -->
-    {% include analytics.html %}
-  </head>
-  <!-- Main Body-->
-  <body>
-  <!-- Wrap all page content here -->
-  <div id="wrap">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" /> 
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" /> 
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/syntax.css" /> 
+    <!-- Google Analytics --> 
+    {% include analytics.html %} 
+  </head> 
+<!-- Main Body--> 
+  <body> <!-- Wrap all page content here --> 
+    <div id="wrap">
     <!-- Navbar header -->
     {% include header.html %}
 
     {{ content }}
 
-  </div>
-  <!-- Footer -->
-  {% include footer.html %}
+    </div>
+    <!-- Footer -->
+    {% include footer.html %}
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    {% if site.local %}
+      <script src="{{ site.baseurl }}static/vendor/jquery/3.2.1/jquery.min.js"></script>
+    {% else %}
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    {% endif %}
     <!-- Bootstrap core JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
-    integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
-    crossorigin="anonymous"></script>
+    {% if site.local %}
+      <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/vendor/bootstrap-3.3.5/js/bootstrap.min.js" />
+    {% else %}
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    {% endif %}
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="{{ site.baseurl }}static/js/docs.min.js"></script>
     <script src="{{ site.baseurl }}static/js/main.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="{{ site.baseurl }}static/js/ie10-viewport-bug-workaround.js"></script>
