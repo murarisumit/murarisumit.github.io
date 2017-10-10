@@ -1,5 +1,5 @@
 ---
-title: Lambda Function python little introduction
+title: Small intro to lambda Function in python
 date: '2016-08-08 00:00:00 +0000'
 tags:
 - Python

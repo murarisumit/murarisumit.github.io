@@ -40,7 +40,7 @@ Electricity is flow of elctrons from -ve terminal to +ve terminal, it is just th
 
     * Path electic current follows is called circuit.
     * Force moving the electron to +ve end is volatge and is measured in Volts 
-    * Typical AA battery is 1.5V, this is small force and would give us shock
+    * Typical AA battery is 1.5V, this is small force and would not give us shock
         * As this force will not move electron so fast 
         * 120V or 220V is dangerous
 
@@ -49,7 +49,7 @@ Electricity is flow of elctrons from -ve terminal to +ve terminal, it is just th
         * It causes lot of heat-generation and as there is lot of movement towards the +ive terminal
 
 
-* Conductor are element which have small sections of electron which are free to move around conductors.
+* Conductor are element which have small sections of electron which are free to move around conductors(again a theory we believe in).
 
 * Non-conductor all electrons are bind to atoms.
 
@@ -63,7 +63,7 @@ Other than battery we can use **silk and glass experiment** to see electric char
     * One has positive charge and other has negative charge.
     * OR you've could said one has charge A other has charge B or anything else but both has different one.
 
-* What happens in above experiment is:
+* What happens in above experiment is (**it's a theory currently all science people believe in, something new can come up too**) :
     * Glass happens to lose electrons easily, and silk grabs them away from the glass atoms, so after rubbing the glass becomes positively charged and the silk becomes **negatively(or type B)** charged.
 
 * Similarly if we rub the rubber-rod with cat-fur the the rubber-rod said to have lose got electron hence move of type B charge.

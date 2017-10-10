@@ -1,5 +1,5 @@
 ---
-title: " Basic virtualbox networking modes"
+title: "Basic virtualbox networking modes"
 date: 2017-02-21 04:42:25 Z
 layout: post
 tags:

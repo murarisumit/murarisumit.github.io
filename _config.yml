@@ -1,6 +1,6 @@
 ---
-title: Learner
-timezone: UTC
+title: Learner, hopefully for life.
+timezone: IST
 collections:
   posts:
     title: Posts
@@ -21,7 +21,7 @@ safe: true
 url: http://www.murarisumit.in
 baseurl:
 author: Sumit Murari
-description: Personal blog
+description: Place to keep some thoughts
 avatar: profile.png
 email: email@murarisumit.in
 email_feedback: true
