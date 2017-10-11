@@ -12,9 +12,9 @@ Unicode is a character encoding standard.
 
 * In Unicode, each character has code-points. Unicode has more than **1 million code-points** representing character for every language.
 
-* Unicode is text less. For saving code-points in Unicode to disk you have to encode it. 
+* Unicode is text less. For saving code-points in Unicode to disk we have to encode it. 
 
-* Unicode code-points e.g. **U+004E** for **N** for saving, has be encoded to UTF-8 or some other encoding techniques like UTF-16 or Shift-JIS
+* Unicode code-points e.g. **U+004E** is **N** and for saving, it has be encoded to UTF-8 or some other encoding techniques like UTF-16 or Shift-JIS
 
     * In UTF-8, first 128 character are encoded just like ASCII, so it takes 1-4 byte for per code-points for storing to disk.
 
