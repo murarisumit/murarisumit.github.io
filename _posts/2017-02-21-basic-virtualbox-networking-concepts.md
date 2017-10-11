@@ -21,21 +21,23 @@ Virtualbox has various mode of networking between host-guest and guest-guest, fe
 	* (copy pasted --> )A NAT service is attached to an internal network. Virtual machines which are to make use of it should be attached to that internal network. The name of internal network is chosen when the NAT service is created and the internal network will be created if it does not already exist.
 
 * **Bridged networking** :
-	* With bridged networking, virtualbox uses a device driver on  host system that filters data from physical network adapter
+	* With bridged networking, virtualbox uses a **device driver on host system** that filters data from physical network adapter
 	* It intercepts data from physical network and injects data into into it, effectively creating software network interface
 	* When a guest is using such a new software interface, it looks to the host system as though the guest were physically connected to the interface using a network cable: the host can send data to the guest through that interface and receive data from it.
-	* This means that you can set up routing or bridging between the guest and the rest of your network.
+	* We can set routing or bridging between the guest and the rest of your network.
 
 * **Internal networking** :
 	* In Internal networking the machine can talk to each other only.
 	* Network name is the identifer that connects two nodes in the internal network.
 	* The traffic between the machine cannot be sniffed as no physical interface is used
+    * No internet access
+    * No direct access(ssh to machine or any connection) to vms
 
 * **Host-only networking** :
 	* Host only networking  is hybrid between the bridged and internal networking modes.
 		* In bridge networking the communication virtual machines(vm's) can talk to each other and the host as if they were connected through a physical Ethernet switch.
 		* In internal networking however, a physical networking interface need not be present, and the virtual machines cannot talk to the world outside the host since they are not connected to a physical networking interface.
 	* A new software interface is created on the host and it is used for communication instead of existing physical interfaces.
-	* The traffic is moved using the new interface created, hence your traffic can be seen through the interfaces.
+	* The traffic is moved using the new interface created, hence your traffic can be **seen through the interfaces**.
 
 Reference : [https://www.virtualbox.org/manual/ch06.html](https://www.virtualbox.org/manual/ch06.html)
