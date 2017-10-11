@@ -32,8 +32,10 @@ It can be one of 4 types.
     * An index is a collection of documents that have somewhat similar characteristics.
     * Analogy can be what **index is to elasticsearch is what database to RDBMS.**
     * Within index we store multiple kinds of data.
-    * Data coming to specific index is stored in elasticsearch using a mapping that elasticsearch does dyanmically of you, you can(should) do it manually too.
+    * Data coming to specific index is stored in elasticsearch using a mapping that elasticsearch does dyanmically of us, we can(should) do it manually too.
     * An index is a logical namespace which points to primary and replica shards.
+    * If you're using ES for some logging or purpose where we have archival data, usually daily or some time-based index are created, which makes archival easy as we can archive last 10-days index as index as time-based.
+    * We can query ES for searching from index with specific pattern.
 
 
 
@@ -54,9 +56,10 @@ It can be one of 4 types.
    
 	 
 * **Replica**
-	* Replica is shard which is exact copy of primary shard i.e. it'll contain the same data. Replicas are used to increase search performance and for fail-over.
+	* Replica is shard which is exact copy of primary shard i.e. it'll contain the same data. 
+    * Replicas are used to increase search performance or for fail-over purpose.
 	* Replica is never allocated on the same node where their primary is.
-	* You don't play with shard directly other than specifiying config values for **primary shard** and **replicas**
+	* We don't play with shard directly other than specifiying config values for **primary shard** and **replicas**
 
 
 
