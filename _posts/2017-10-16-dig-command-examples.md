@@ -44,3 +44,7 @@ layout: post
 
 * Get response from specific nameserver.
     * dig @namserver_address domain_url:  `dig @ns2.redhat.com. www.redhat.com`
+
+* Get reverse dns i.e. get record from given ip.
+    * dig -x @nameserver_address ip_addr: `dig -x @ns.homebox.in 1.2.3.4` OR
+    * dig -x ip_addr: `dig -x 1.2.3.4` 
