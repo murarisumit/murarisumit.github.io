@@ -14,6 +14,9 @@ Here are some basic commands used in docker. Hope it helps you.
 * **Create docker image** : Execute command in the directory containing *Dockerfile*: `docker build -t image_tag_name .`
 	* [`.`] indicated the current folder where file named *Dockerfile* is
 
+* **List all docker images**:
+    * `docker images`
+
 * **Run docker image** : `docker run -it --name container_name_here image_tag_name`
 	* `-it`: It will open interactive terminal after running it, to interact with container
 	
@@ -39,6 +42,4 @@ Here are some basic commands used in docker. Hope it helps you.
 
 * **Container to host port connection**
     * `docker run -p <host_port>:<container_port> -p <host_port>:<container_port> -d -it --name container_name image-name`
-
-
 
