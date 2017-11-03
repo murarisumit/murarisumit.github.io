@@ -1,8 +1,9 @@
 ---
 title: Dig basic commands snippets
-date: 2017-10-16 00:00:00 Z
+date: '2017-10-16 00:00:00 +0000'
 tags:
 - GNU/Linux
+- ''
 layout: post
 ---
 
@@ -47,4 +48,4 @@ layout: post
 
 * Get reverse dns i.e. get record from given ip.
     * dig -x @nameserver_address ip_addr: `dig -x @ns.homebox.in 1.2.3.4` OR
-    * dig -x ip_addr: `dig -x 1.2.3.4` 
+    * dig -x ip_addr: `dig -x 1.2.3.4`
