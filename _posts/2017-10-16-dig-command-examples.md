@@ -21,6 +21,9 @@ layout: post
 
 * To fetch the shortned version of dig's output
     * `dig redhat.com +noall +answer +question`
+        * **+noall** : will not show any output
+        * **+answer** :  will show answer section
+        * **+question** : will show question section
     * `dig redhat.com +short`
 
 * List the MX record for the domain.
