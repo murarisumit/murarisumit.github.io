@@ -17,7 +17,7 @@ For basic docker swarn setup.
     * `docker service create --replicas 1 --name helloworld alpine ping docker.com`
 * Run **docker service ls** to see the list of running services: 
     * `docker service ls`
-* List all service running.
+* List all services running.
     * `docker service ps helloworld`
 * Scale the service in swarn.
     * `docker service scale helloworld=5`
