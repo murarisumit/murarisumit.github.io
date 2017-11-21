@@ -10,7 +10,7 @@ layout: post
 
 * Modules :
     * These are simple python files with the .py extension, which implement a set of functions/functionality.
-    * Modules are imported from other modules using the *import* command like `import file.py`
+    * Modules are imported from other modules using the *import* command like `import file`
     * Above will import variables/funtions/classes from *file.py*.
 
 
