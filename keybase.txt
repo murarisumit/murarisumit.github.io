@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/murarisumit
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.slashsumit.in
+  * I am murarisumit (https://keybase.io/murarisumit) on keybase.
+  * I have a public key ASCDHBt9IZm_I1aX65SEsb4d_t5rxM1PSSTsh02S33DNvQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010153fc0ae37991578e06cd3e9e5791a0944db033ec968863d52021dd764ee97a480a",
+      "host": "keybase.io",
+      "kid": "0120831c1b7d2199bf235697eb9484b1be1dfede6bc4cd4f4924ec874d92df70cdbd0a",
+      "uid": "89d9c4c4f13b33585cd766ab7472a619",
+      "username": "murarisumit"
+    },
+    "merkle_root": {
+      "ctime": 1513011657,
+      "hash": "7439a3e464a77572de1e268bc24a56ee1ef34740ec79706bf83dbdbeadc70c0c2af72fd7f6893e125c4bca4c2551001bdc5466966262ace1bb41b128dae3bb2d",
+      "hash_meta": "4f9b62756d860d1d84211d7105385daf1c7e80094f3b48d10c3f3a30b0a71ec6",
+      "seqno": 1802465
+    },
+    "service": {
+      "hostname": "www.slashsumit.in",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.37"
+  },
+  "ctime": 1513011681,
+  "expire_in": 504576000,
+  "prev": "dd2a6921177066820004a0eb5250fc90abf8f24a1c6eecfa38063a731b4d3dba",
+  "seqno": 54,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEggxwbfSGZvyNWl+uUhLG+Hf7ea8TNT0kk7IdNkt9wzb0Kp3BheWxvYWTFA017ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNTNmYzBhZTM3OTkxNTc4ZTA2Y2QzZTllNTc5MWEwOTQ0ZGIwMzNlYzk2ODg2M2Q1MjAyMWRkNzY0ZWU5N2E0ODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODMxYzFiN2QyMTk5YmYyMzU2OTdlYjk0ODRiMWJlMWRmZWRlNmJjNGNkNGY0OTI0ZWM4NzRkOTJkZjcwY2RiZDBhIiwidWlkIjoiODlkOWM0YzRmMTNiMzM1ODVjZDc2NmFiNzQ3MmE2MTkiLCJ1c2VybmFtZSI6Im11cmFyaXN1bWl0In0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTEzMDExNjU3LCJoYXNoIjoiNzQzOWEzZTQ2NGE3NzU3MmRlMWUyNjhiYzI0YTU2ZWUxZWYzNDc0MGVjNzk3MDZiZjgzZGJkYmVhZGM3MGMwYzJhZjcyZmQ3ZjY4OTNlMTI1YzRiY2E0YzI1NTEwMDFiZGM1NDY2OTY2MjYyYWNlMWJiNDFiMTI4ZGFlM2JiMmQiLCJoYXNoX21ldGEiOiI0ZjliNjI3NTZkODYwZDFkODQyMTFkNzEwNTM4NWRhZjFjN2U4MDA5NGYzYjQ4ZDEwYzNmM2EzMGIwYTcxZWM2Iiwic2Vxbm8iOjE4MDI0NjV9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoid3d3LnNsYXNoc3VtaXQuaW4iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zNyJ9LCJjdGltZSI6MTUxMzAxMTY4MSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiJkZDJhNjkyMTE3NzA2NjgyMDAwNGEwZWI1MjUwZmM5MGFiZjhmMjRhMWM2ZWVjZmEzODA2M2E3MzFiNGQzZGJhIiwic2Vxbm8iOjU0LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQLE2HvcNDA3Za3Lv6HkihuQ9Cnsm8pURrTwRIkGw9u06Gw1sA3MDdyUHFIycgqqCtA0SnobmbZoJ+ab1+2RIRwSoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBJdThDcIS8e4fB2l78d5EPVYc15YfJROoVNtQS3SFe2aN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/murarisumit
+
+==================================================================
