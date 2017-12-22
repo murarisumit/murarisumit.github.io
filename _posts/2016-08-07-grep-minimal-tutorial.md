@@ -23,5 +23,12 @@ tags:
 * Select only matches that exactly match the whole line: `grep -xr tabular ..`
   * `..` represents the parent directory
 
+Bonus command:
+
+* Using find, xargs and grep for faster search: `find . -iname *.py | xargs grep --color 'search-term'`
+    * It list all the python(.py) file and greps through each of the file
+    * This is faster, if you've large directory to search and you know which type of file you need.
+    * find and grep is powerful combination to use.
+
 Reference: 
 * [http://www.uccs.edu/~ahitchco/grep/](http://www.uccs.edu/~ahitchco/grep/)
