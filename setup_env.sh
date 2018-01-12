@@ -16,5 +16,3 @@ set -o nounset                              # Treat unset variables as an error
 gem install bundler --verbose
 gem install jekyll --verbose
 gem install jekyll-admin  --verbose
-
-

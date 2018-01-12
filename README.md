@@ -7,6 +7,17 @@ freely hosted in [Github pages](https://pages.github.com/).
 * For local work, use the site variable `local: true` in config.yml, it'll use static bootstrap and jquery libs.
 
 
+
+To create a new draft:
+    * `octopress new drafts "your posts drafts name"`
+To publish it as post
+    * `octopress publish _drafts/your_draft_file`
+
+To push the post
+    * git commit
+    * git push
+
+
 ## Copyright & License
 
 Copyright (C) 2015 - Released under the MIT License.
