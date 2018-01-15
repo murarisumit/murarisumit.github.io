@@ -10,8 +10,10 @@ freely hosted in [Github pages](https://pages.github.com/).
 
 To create a new draft:
     * `octopress new draft "your posts drafts name"`
+    * `make create name='my drafts name'`
 To publish it as post
     * `octopress publish _drafts/your_draft_file`
+    * `make publish path='_drafts/your_draft_file'`
 
 To push the post
     * git commit

@@ -3,3 +3,9 @@ serve_with_drafts:
 
 serve:
 	jekyll serve
+
+create:
+	octopress new draft "$(name)"
+
+publish:
+	octopress publish "$(path)"
