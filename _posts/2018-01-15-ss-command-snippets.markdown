@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ss command snippets"
-date: 2018-01-15T08:08:26+00:00
+date: 2018-01-15T08:30:05+00:00
 tags:
  - GNU/Linux
 ---
@@ -23,8 +23,8 @@ Some basic snippets to use it are.
 * List only ipv4 sockets: `ss -4`
 * List only ipv6 listening sockets: `ss -6l`
 * List time duration for connection: `ss -o`
+* List all ipv4 sync-sent packet sent: `ss -t4 state syn-sent`
 * List all established connection with duration: `ss -o state established`
-* List all sync-sent packet sent: `ss -t4 state syn-sent`
 * list all sockets other than `TIME_WAIT` : `ss exclude TIME_WAIT`
 * List all ssh connections: `ss -0 state established '( dport = :ssh or sport = :ssh )'`
 
@@ -71,4 +71,3 @@ Some basic snippets to use it are.
 ---
 Reference: 
 * [http://man7.org/linux/man-pages/man8/ss.8.html](http://man7.org/linux/man-pages/man8/ss.8.html)
-* [http://www.uccs.edu/~ahitchco/grep/](http://www.uccs.edu/~ahitchco/grep/)
