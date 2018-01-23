@@ -9,3 +9,6 @@ create:
 
 publish:
 	octopress publish "$(path)"
+
+push:
+	git push	
