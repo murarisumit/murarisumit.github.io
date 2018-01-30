@@ -23,6 +23,9 @@ AWK is an interpreted programming language. It's designed for text processing. I
 
 *   If _str_ matches the 2nd word, print 3rd word: `awk '$2=="str" {print $3}' input.txt`
 
+*   Specify field saperator for parsed line: `awk -F'&' '$2=="str" {print $3}' input.txt`
+    * Now each field i.e. $1, $2 will be string saperated by '&' unlike 'space' is default case.
+
 *   If 1st word **partly** matches _str_, then print 3rd word: `awk '$1 ~ "str" {print $3}' input.txt`
 
 *   Ignorecase string comparision, if 2nd element is "find/Find/fInd/fiND", then print third element :
@@ -49,4 +52,5 @@ AWK is an interpreted programming language. It's designed for text processing. I
 
 *   Looping and other construct are also there, which you can read from [here](http://www.tutorialspoint.com/awk/awk_loops.htm), but above basic stuff will get you started.
 
+<br/>
 References: [Tutorials Point](http://www.tutorialspoint.com/awk/): http://www.tutorialspoint.com/awk/
