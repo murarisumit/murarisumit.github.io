@@ -10,6 +10,7 @@ Here are some basic commands used in docker. Hope it helps you.
 
 
 * **Create a docker file** : create a file named **Dockerfile** in the folder.
+    * <script src="https://gist.github.com/murarisumit/1c0a3a1f7fda6ba43cb28761d809292e.js"></script>
 
 * **Create docker image** : Execute command in the directory containing *Dockerfile*: `docker build -t image_tag_name .`
 	* [`.`] indicated the current folder where file named *Dockerfile* is
