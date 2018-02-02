@@ -10,7 +10,7 @@ Sudo is a program that allows users to
     * Run program as some specific privilage level.
     * Logs the user actions
 
-Sudo's configuration file, the sudoers(/etc/s file, help us in configuring the rules about delagating authority.
+Sudo's configuration file, the sudoers(/etc/sudoers) file, help us in configuring the rules about delagating authority.
 
 
 Examples:
