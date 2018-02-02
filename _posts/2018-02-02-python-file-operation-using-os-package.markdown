@@ -27,3 +27,13 @@ Here I'll be using [os](https://docs.python.org/3/library/os.html) package, it p
     * If file is in current directory: 
         * `os.rename(os.path.join(os.getcwd(),file), os.path.join(os.getcwd(), file.replace('_','-')))`
 
+
+* Repeat above example for all files in current directory
+    ```python
+    import os
+    onlyfiles = [f for f in os.listdir() if isfile(f)]
+    for file in onlyfiles:
+        os.rename(os.path.join(os.getcwd(),file), os.path.join(os.getcwd(), file.replace('_','-')))
+    ```
+
+
