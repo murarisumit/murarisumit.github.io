@@ -27,6 +27,7 @@ Some basic snippets to use it are.
 * List all established connection with duration: `ss -o state established`
 * List all sockets other than `TIME_WAIT` : `ss exclude TIME_WAIT`
 * List connections to ip:port : `ss -nt dst 10.0.0.1:80`
+* List connections to ip:port with pid: `ss -npt dst 10.0.0.1:80`
 * List all ssh connections: `ss -0 state established '( dport = :ssh or sport = :ssh )'`
 * List all connection with destination port: 
     * All connection with destination port 6379: `sudo ss -na dport = :6379`
