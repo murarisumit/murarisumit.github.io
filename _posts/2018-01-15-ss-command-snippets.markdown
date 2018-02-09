@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ss command snippets"
+title: "'ss' command snippets"
 date: 2018-01-15T08:30:05+00:00
 tags:
  - GNU/Linux
@@ -25,8 +25,15 @@ Some basic snippets to use it are.
 * List time duration for connection: `ss -o`
 * List all ipv4 sync-sent packet sent: `ss -t4 state syn-sent`
 * List all established connection with duration: `ss -o state established`
-* list all sockets other than `TIME_WAIT` : `ss exclude TIME_WAIT`
+* List all sockets other than `TIME_WAIT` : `ss exclude TIME_WAIT`
+* List connections to ip:port : `ss -nt dst 10.0.0.1:80`
 * List all ssh connections: `ss -0 state established '( dport = :ssh or sport = :ssh )'`
+* List all connection with destination port: 
+    * All connection with destination port 6379: `sudo ss -na dport = :6379`
+    * TCP connection with destination port 6379: `sudo ss -nt dport = :6379`
+    * All connection with establish connection and port 6379: `sudo ss -na state established dport = :6379`
+* List all connection with subnet: `ss -nt dst 10.0.0.0/16`
+* List connections in subnet and specific port: `ss -na dst 10.20.0.0/16 dport = :6379`
 
 <hr/>
 **A bit advanced here**, you'll be okay with above section for daily use.
