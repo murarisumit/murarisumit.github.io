@@ -3,7 +3,7 @@ title: Docker minimal commands
 date: 2016-07-15 00:00:00 Z
 layout: post
 tags:
-- misc.
+- Docker
 ---
 
 Here are some basic commands used in docker. Hope it helps you.

@@ -1,4 +1,4 @@
-serve_with_drafts:
+serve-with-drafts:
 	jekyll serve --drafts
 
 serve:

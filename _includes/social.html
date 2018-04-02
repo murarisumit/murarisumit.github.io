@@ -13,20 +13,26 @@
     {% endif %}
 
     {% if site.twitter %}
-        <a href="http://twitter.com/{{ site.twitter }}" target="_blank" ><i class="fa fa-twitter"></i></a>
+        <a href="https://twitter.com/{{ site.twitter }}" target="_blank" ><i class="fa fa-twitter"></i></a>
     {% endif %}
 
     {% if site.linkedin %}
-        <a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
+        <a href="https://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
     {% endif %}
 
     {% if site.stackoverflow %}
     <!-- stackoverflow userid here -->
-        <a href="http://stackoverflow.com/users/{{site.stackoverflow}}" target="_blank" ><i class="fa fa-stack-overflow"></i></a>
+        <a href="https://stackoverflow.com/users/{{site.stackoverflow}}" target="_blank" ><i class="fa fa-stack-overflow"></i></a>
     {% endif %}
+
     {% if site.stackoverflow_story %}
-        <a href="http://stackoverflow.com/story/{{site.stackoverflow_story}}" target="_blank" ><i class="fa fa-stack-overflow"></i></a>
+        <a href="https://stackoverflow.com/story/{{site.stackoverflow_story}}" target="_blank" ><i class="fa fa-stack-overflow"></i></a>
     {% endif %}
+
+    {% if site.keybase %}
+    <a href="https://keybase.io/{{ site.keybase }}" target="_blank" ><img rel="icon" href="/static/img/keybase.io" type="image/x-icon" /></a>
+    {% endif %}
+
 
 	</h4>
 </div>
