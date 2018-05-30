@@ -40,7 +40,11 @@ Basic use cases would be:
 * Read those dump you've captured.
 	* `tcpdump -r packets.cap`
 
+Advanced:
+* Beautiful next article on it: [https://hackertarget.com/tcpdump-examples/](https://hackertarget.com/tcpdump-examples/)
 
 Reference: 
 * [http://www.tcpdump.org/tcpdump_man.html](http://www.tcpdump.org/tcpdump_man.html)
 * [https://www.rationallyparanoid.com/articles/tcpdump.html](https://www.rationallyparanoid.com/articles/tcpdump.html)
+
+
