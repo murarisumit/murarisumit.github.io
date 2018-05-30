@@ -41,7 +41,7 @@ Basic use cases would be:
 	* `tcpdump -r packets.cap`
 
 Advanced:
-* Beautiful next article on it: [https://hackertarget.com/tcpdump-examples/](https://hackertarget.com/tcpdump-examples/)
+* Next article to read: [https://hackertarget.com/tcpdump-examples/](https://hackertarget.com/tcpdump-examples/)
 
 Reference: 
 * [http://www.tcpdump.org/tcpdump_man.html](http://www.tcpdump.org/tcpdump_man.html)
