@@ -21,7 +21,7 @@ AWK is an interpreted programming language. It's designed for text processing. I
 
 *   Check for pattern, if found print first word: `awk ' /pattern/ {print $1}' input.txt`
 
-*   If _str_ matches the 2nd word, print 3rd word: `awk '$2=="str" {print $3}' input.txt`
+*   If _str_ matches with 2nd word, print 3rd word: `awk '$2=="str" {print $3}' input.txt`
 
 *   Specify field saperator for parsed line: `awk -F'&' '$2=="str" {print $3}' input.txt`
     * Now each field i.e. $1, $2 will be string saperated by '&' unlike 'space' is default case.

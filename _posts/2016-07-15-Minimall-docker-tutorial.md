@@ -22,11 +22,13 @@ Here are some basic commands used in docker. Hope it helps you.
 	* `-it`: It will open interactive terminal after running it, to interact with container
 	
 * **To connect to running container**: `docker exec -it container_name shell[/bin/bash]`
-    * E.g `docker exec -it debian /bin/bash
+    * E.g `docker exec -it debian /bin/bash`
 
 * **Start any stopped container**: 
 	* Just start the container: `docker start container_name`
 	* Start container and connect: `docker start -i container_name`
+
+* **List all container**: `docker ps -a`
 
 * **List all running container**: `docker ps`
 

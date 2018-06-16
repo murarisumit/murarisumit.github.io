@@ -22,6 +22,7 @@ tags:
   * `.` represents current directory
 * Select only matches that exactly match the whole line: `grep -xr tabular ..`
   * `..` represents the parent directory
+* Exclude certain dir: `grep --exclude-dir "_site" -nr "search_text" ."`
 
 Bonus command:
 
