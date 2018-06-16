@@ -31,7 +31,7 @@ linkedin: murarisumit
 # stackoverflow: 2735833
 stackoverflow_story: murarisumit
 google_analytics: UA-64117471-1
-gems:
+plugins:
 - jekyll-admin
 - jekyll-paginate
 
