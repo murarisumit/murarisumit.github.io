@@ -27,8 +27,13 @@ It's part of [shadow password suite](http://man7.org/linux/man-pages/man5/login.
     * **-d** : Home directory path
 
 * Add user to multiple groups: `useradd -G group1,group2 user-name`
-* List the groups user is added to : `groups username`
-* List all the members of group : `members groupsname`
+* List the groups user is added to : 
+    * `groups username` or
+    * `cat /etc/groups` | grep username
+* List all the members of group : 
+    * `members groupsname` or
+    * `cat /etc/groups` | grep groupname
+
 
 
 Reference: 
