@@ -6,7 +6,7 @@ tags:
 layout: post
 ---
 
-This is taken all from [12factor.net](12factor.net).This methodology include the 12 factors or 12 parts of software engineering, which should be used while engineering  softwares. <br/>
+This is taken all from [12factor.net](12factor.net). This methodology include the 12 factors or 12 parts of software engineering, which should be used while engineering  softwares. <br/>
 My app should be a follow these 12 factor or confor with as my factor possible. <br/>
 
 **In my opinion**
