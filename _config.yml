@@ -28,8 +28,8 @@ email_feedback: true
 github: murarisumit
 # aboutme: murarisumit
 linkedin: murarisumit
-# stackoverflow: 2735833
-stackoverflow_story: murarisumit
+stackoverflow: 2735833
+# stackoverflow_story: murarisumit
 google_analytics: UA-64117471-1
 plugins:
 - jekyll-admin
