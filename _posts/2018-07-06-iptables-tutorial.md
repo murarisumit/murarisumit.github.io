@@ -19,6 +19,8 @@ Iptables interfaces with the kernel's netfilter packet filtering framework, it w
 
 Every packet that enters networking system (incoming or outgoing) will trigger these hooks as it progresses through the stack, allowing programs that register with these hooks to interact with the traffic at key points.
 
+---
+
 ## Netfilter Hooks
 
 There are five netfilter hooks that programs can register with. Tollowing hooks represent various well-defined points in the networking stack:
@@ -30,6 +32,7 @@ There are five netfilter hooks that programs can register with. Tollowing hooks 
 * __NF_IP_POST_ROUTING__: This hook is triggered by any outgoing or forwarded traffic after routing has taken place and just before being put out on the wire.
 
 
+---
 
 ## IPTables Tables and Chains
 
@@ -76,13 +79,14 @@ Iptables is userland tool that works with netfilter.
   * POSTROUTING: Triggered by the NF_IP_POST_ROUTING hook and all outbound packet goes through post routing state.
 
 
-### Chain Traversal Order
+#### Chain Traversal Order
 
 
 * Incoming packets destined for the local system: PREROUTING -> INPUT
 * Incoming packets destined to another host: PREROUTING -> FORWARD -> POSTROUTING.
 * Locally generated packets: OUTPUT -> POSTROUTING
 
+---
 
 ## Flow
 
@@ -93,7 +97,7 @@ Iptables is userland tool that works with netfilter.
 * POSTROUTING change can modify the headers, filter the packets before packet is finally put onto the network.
 
 
-
+---
 ## IPTables Rules
 
 * Rules are placed within a specific chain of a specific table.
