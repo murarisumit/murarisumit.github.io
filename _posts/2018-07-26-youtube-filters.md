@@ -7,7 +7,7 @@ tags:
 - misc.
 ---
 
-I usually end-up viewing 5 videos, when I just intended to watch on 1 it takes too lot of time of my life. So using ublock-origin filters to remove all annoyance I feel up there. 
+I usually end-up viewing 5 videos, when I just intended to watch on 1. It takes too lot of time of my life, so using ublock-origin filters to remove all annoyance I feel up there. 
 
 It primarly blocks
 * Videos on Home page
