@@ -2,7 +2,7 @@
 title: Modules and packages python 
 date: '2017-11-11 00:00:00 +0000'
 tags:
-- Python
+- python
 layout: post
 ---
 

@@ -3,7 +3,7 @@ title: Subprocess, a small introduction
 date: 2017-01-10 00:00:00 Z
 layout: post
 tags:
-- Python
+- python
 ---
 
 > The [subprocess](https://docs.python.org/3.4/library/subprocess.html) module allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes.

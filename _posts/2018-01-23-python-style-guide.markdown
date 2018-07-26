@@ -3,7 +3,7 @@ layout: post
 title: "Python Style Guide"
 date: 2018-01-23T09:23:30+00:00
 tags:
- - Python
+ - python
 ---
 
 Base style guide  python.

@@ -4,7 +4,7 @@ date: 2015-07-21 00:00:00
 last_modified_at: 2017-06-16 22:06:00
 layout: post
 tags:
-  - Python
+  - python
 ---
 
 

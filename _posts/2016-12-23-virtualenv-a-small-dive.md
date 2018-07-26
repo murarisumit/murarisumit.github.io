@@ -3,7 +3,7 @@ title: Virtualenv, a small internal dive
 date: 2016-12-23 14:46:56 Z
 layout: post
 tags:
-- Python
+- python
 ---
 
 Virtualenv gives a clean working environment for python project. To understand *virtualenv*, we need to understand how python works,

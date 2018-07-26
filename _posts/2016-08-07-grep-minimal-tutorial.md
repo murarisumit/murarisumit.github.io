@@ -3,7 +3,7 @@ title: GREP minimal tutorial
 date: 2016-08-07 00:00:00
 layout: post
 tags:
-  - GNU/Linux
+  - gnu/linux
 ---
 
 
