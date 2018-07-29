@@ -2,7 +2,7 @@
 title: Building basic linux modules
 date: '2018-07-06 00:00:00 +0000'
 tags:
-- gnu/linux
+- gnu-linux
 layout: post
 ---
 

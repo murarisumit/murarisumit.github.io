@@ -181,7 +181,9 @@ body {
  margin-top:.5rem;
  margin-bottom:.5rem;
  border-radius:4px;
- color: #333333;
+/*  color: #333333; */
+/*  color: #ff9933; Saffron */
+ color: #27A822; Green
  -webkit-transition:all 0.1s ease-in-out;
  -moz-transition:all 0.1s ease-in-out;
  transition:all 0.1s ease-in-out
@@ -189,8 +191,7 @@ body {
 
 .post-tag:hover {
  text-decoration:none;
- background:#6a9fb5;
- color:#fff
+ transform: scale(1.15);
 }
 
 

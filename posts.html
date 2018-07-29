@@ -55,8 +55,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 {% endcomment %}
 <div class="container">
 {% for tag in tags %}
-		<hr/>
-		<h5 style="text-align: center; text-transform: uppercase;" id="{{ tag }}" > {{ tag }}</h5>
+		<span><h5 style="text-align: center; text-transform: uppercase;" class="post-tag" id="{{ tag | slugify }}"> {{ tag }} </h5></span>
     {% for post in site.posts %}
 			{% if post.tags contains tag %}
 					<div class="row">
@@ -64,6 +63,6 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 					</div>
 			{% endif %}
     {% endfor %}
+		<hr/>
 {% endfor %}
 </div>
-<hr/>

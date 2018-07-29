@@ -3,7 +3,7 @@ layout: post
 title: "SS command snippets"
 date: 2018-01-15T08:30:05+00:00
 tags:
- - gnu/linux
+ - gnu-linux
 ---
 
 

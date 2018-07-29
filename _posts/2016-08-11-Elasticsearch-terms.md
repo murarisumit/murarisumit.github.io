@@ -3,7 +3,7 @@ title: Elasticsearch basic terminologies
 date: '2016-08-11 00:00:00 +0000'
 layout: post
 tags:
-- misc.
+- elasticsearch
 ---
 
 Elasticsearch is a distributed search engine. You dump data to some elasticsearch-index, and then you can make http queries to search the data.
