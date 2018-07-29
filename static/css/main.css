@@ -164,6 +164,36 @@ body {
   font-size: 1.1em;
 }
 
+/* Tags
+
+---------------------------------------------------*/
+.post-tag:before {
+  content:"\f02c";
+  font-family:FontAwesome;
+  padding-right:.5em;
+}
+
+.post-tag {
+ display:inline-block;
+ background:rgba(106,159,181,0.15);
+ padding:0 .5rem;
+ margin-right:.5rem;
+ margin-top:.5rem;
+ margin-bottom:.5rem;
+ border-radius:4px;
+ color: #333333;
+ -webkit-transition:all 0.1s ease-in-out;
+ -moz-transition:all 0.1s ease-in-out;
+ transition:all 0.1s ease-in-out
+}
+
+.post-tag:hover {
+ text-decoration:none;
+ background:#6a9fb5;
+ color:#fff
+}
+
+
 /* Footer 
 -------------------------------------------------- */
 

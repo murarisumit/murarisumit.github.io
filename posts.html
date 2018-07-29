@@ -3,19 +3,67 @@ title: Posts
 layout: layout
 ---
 
+{% comment %}
+=======================
+The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+    {% assign ttags = post.tags | join:'|' | append:'|' %}
+    {% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% comment %}
+=======================
+The following part removes dulpicated tags and invalid tags like blank tag.
+=======================
+{% endcomment %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+    {% if tag != "" %}
+        {% if tags == "" %}
+            {% assign tags = tag | split:'|' %}
+        {% endif %}
+        {% unless tags contains tag %}
+            {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+
+{% comment %}
+=======================
+The purpose of this snippet is to list all the tags you have in your site.
+=======================
+{% endcomment %}
 <div class="container">
-	<h3>...things I don't want to forget and some notes</h3>
-  <center> 
-		{% for tag in site.tags%}
-			<h4 style="text-align: center"><a name="{{ tag | first }}">{{ tag | first }}</a></h4>
-			{% for posts in tag %}
-				{% for post in posts %}
+
+<h3>...things I don't want to forget and some notes</h3>
+{% for tag in tags %}
+		<span style="font-size: 100%;" class="post-tag"><b><a href="#{{ tag }}"> {{ tag }} </a></b></span>
+		&nbsp;&nbsp;
+{% endfor %}
+</div>
+
+<hr/>
+
+{% comment %}
+=======================
+The purpose of this snippet is to list all your posts posted with a certain tag.
+=======================
+{% endcomment %}
+<div class="container">
+{% for tag in tags %}
+		<hr/>
+		<h5 style="text-align: center; text-transform: uppercase;" id="{{ tag }}" > {{ tag }}</h5>
+    {% for post in site.posts %}
+			{% if post.tags contains tag %}
 					<div class="row">
 							<h5 style="text-align: center"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </h5>
 					</div>
-				{% endfor %}
-			{% endfor %}
-			<hr/>
-		{% endfor %}
-  </center>
+			{% endif %}
+    {% endfor %}
+{% endfor %}
 </div>
+<hr/>
