@@ -13,7 +13,7 @@ layout: layout
 		{{ page.date | date: "%B %e, %Y" }}
 			&nbsp;&nbsp;
 			{% for tag in page.tags %}
-			 <span class="post-tag">{{ tag }}</span>
+		    <span style="font-size: 100%;" class="post-tag"><b><a href="/posts.html#{{ tag }}"> {{ tag }} </a></b></span>
 			{% endfor %}
 		</h4>
 	</div>
