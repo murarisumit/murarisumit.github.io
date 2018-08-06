@@ -17,4 +17,5 @@ publish:
 	octopress publish "$(path)"
 
 push:
+	find static/css/src/ -name '*.less' -exec lessc {} \; > static/css/dist/main.css
 	git push	
