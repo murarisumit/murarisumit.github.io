@@ -59,7 +59,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
     {% for post in site.posts %}
 			{% if post.tags contains tag %}
 					<div class="row">
-							<h5 style="text-align: center"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </h5>
+							<h4 style="text-align: center"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </h4>
 					</div>
 			{% endif %}
     {% endfor %}
