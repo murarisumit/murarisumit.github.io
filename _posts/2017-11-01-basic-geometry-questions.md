@@ -8,11 +8,13 @@ tags:
 
 Some basic questions in geometry.
 
-* What is curve ?
-	* Object similar to a line but that need not be straight. Thus, a curve is a generalization of a line.
+* What is straight line ?
+    * It looks complicated but all the heavy words are explained below
+    * It's just a _curve_, when it's _tangent vector_ stay tangent when _parallely transported_ along the curve.
 
-* When a curve is straight  ?
-	* A curve is a **straight**, if tangent vectors stay tangent when parallel transported along the curve.
+* What is curve ?
+    * Object similar to a line but that need not be straight. 
+    * Thus, a curve is a generalization of a line.
 
 * What is parallel transported ?
 	* It means transferring things parallel, here moving vector together, working things in parallel or transposing parallely
