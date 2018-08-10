@@ -1,7 +1,7 @@
 
 # Please to keep the thoughts 
 
-[Personal website](www.murarisumit.in), powered by [Jekyll](http://jekyllrb.com/) and 
+[Personal website](sumit.murari.me), powered by [Jekyll](http://jekyllrb.com/) and 
 freely hosted in [Github pages](https://pages.github.com/).
 
 * For local work, use the site variable `local: true` in config.yml, it'll use static bootstrap and jquery libs.
@@ -9,15 +9,22 @@ freely hosted in [Github pages](https://pages.github.com/).
 
 
 To create a new draft:
+
     * `octopress new draft "your posts drafts name"`
+    
     * `make create name='my drafts name'`
+    
 To publish it as post
+
     * `octopress publish _drafts/your_draft_file`
+    
     * `make publish path='_drafts/your_draft_file'`
 
 To push the post
-    * git commit
-    * git push
+
+    * `git commit`
+    
+    * `git push`
 
 
 ## Copyright & License
