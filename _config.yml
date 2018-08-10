@@ -18,7 +18,7 @@ port: 3000
 safe: true
 local: false
 # edit here to achieve your personal greatness
-url: http://www.slashsumit.in
+url: https://sumit.murari.me
 baseurl:
 author: Sumit Murari
 description: Place to keep some thoughts
