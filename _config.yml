@@ -17,6 +17,7 @@ paginate: 5
 port: 3000
 safe: true
 local: false
+
 # edit here to achieve your personal greatness
 url: https://sumit.murari.me
 baseurl:
@@ -37,3 +38,8 @@ plugins:
 
 # needed for travis-ci build
 exclude: [vendor]
+
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir: _scss
+  style: :compressed
