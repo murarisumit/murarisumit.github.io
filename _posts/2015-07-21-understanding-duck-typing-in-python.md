@@ -8,7 +8,7 @@ tags:
 ---
 
 
-Duck typing is pretty simple.
+Duck typing is pretty simple. :+1:
 
 Duck Typing is an **After the Fact** assessment whereas Static Typing is a **Before the Fact** assessment. Don't get scared by above defination, below explanation will clear it.
 

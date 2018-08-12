@@ -33,6 +33,9 @@
     <a href="https://keybase.io/{{ site.keybase }}" target="_blank" ><img src="/static/img/keybase.io" alt="keybase_icon" /></a>
     {% endif %}
 
+    {% if site.feeds %}
+      <a href="{{ site.url }}/atom.xml" target="_blank" ><i class="fa fa-feed"></i></a>
+    {% endif %}
 
 	</h4>
 </div>
