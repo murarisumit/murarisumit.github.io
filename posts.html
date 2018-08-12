@@ -39,7 +39,11 @@ The purpose of this snippet is to list all the tags you have in your site.
 {% endcomment %}
 <div class="container">
 
-<h3>...things I don't want to forget and some notes</h3>
+<div>
+<h3 style="display:inline-block">...things I don't want to forget and some notes &nbsp &nbsp</h3>
+<a style="display:inline; color:orange" href="{{ site.url }}/atom.xml" target="_blank"><i class="fa fa-feed fa-lg"></i></a>
+</div>
+<hr/>
 {% for tag in tags %}
 		<span style="font-size: 100%;" class="post-tag"><b><a href="#{{ tag }}"> {{ tag }} </a></b></span>
 		&nbsp;&nbsp;
