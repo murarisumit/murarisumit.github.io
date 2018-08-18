@@ -72,5 +72,23 @@
     <script src="{{ site.baseurl }}static/js/main.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="{{ site.baseurl }}static/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Ref to collapse list if you want to use it: http://www.howtocreate.co.uk/tutorials/jsexamples/listCollapseExample.html. -->
+    <script type="text/javascript" src="/static/js/listCollapse.js"></script>
+    <script type="text/javascript">
+    window.onload = function () {
+
+      //choose one of these options
+
+      //option 1 - no auto-child-collapse
+      //compactMenu('someID',false,'&plusmn; ');
+
+      //option 2 - auto-child-collapse
+      compactMenu('collapselist1',true,'&plusmn; ');
+      compactMenu('collapselist2',true,'&plusmn; ');
+      compactMenu('collapselist3',true,'&plusmn; ');
+
+    }
+    </script>
   </body>
 </html>
