@@ -1,0 +1,57 @@
+---
+title: Categories
+layout: layout
+---
+
+{% comment %}
+=======================
+The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+
+<div class="container">
+  <div>
+    <h3 style="display:inline-block"> <small>'...work in progress'</small> Categories &nbsp &nbsp</h3>
+  <a style="display:inline; color:orange" href="{{ site.url }}/atom.xml" target="_blank"><i class="fa fa-feed fa-lg"></i></a>
+  </div>
+  <hr/>
+  {% assign categories_list = site.categories %}
+    {% if categories_list.first[0] == null %}
+      {% for category in categories_list %}
+        <div class="category">
+          <i class="fa fa-pie-chart"></i><a href="#{{ category }}">{{ category | capitalize }} ({{ site.tags[category].size }})</a>
+        </div>
+      {% endfor %}
+    {% else %}
+      {% for category in categories_list %}
+        <div class="category">
+          <i class="fa fa-pie-chart"></i><a href="#{{ category[0] | downcase }}">{{ category[0] | capitalize }} ({{ category[1].size }})</a>
+        </div>
+      {% endfor %}
+    {% endif %}
+  {% assign categories_list = nil %}
+</div>
+<hr/>
+{% comment %}
+=======================
+List posts with categories with post title here
+=======================
+{% endcomment %}
+<div class="container">
+{% for category in site.categories %}
+  <h4 id="{{ category[0] }}">{{ category[0] | uppercase }}</h4>
+  {% assign pages_list = category[1] %}
+  {% for post in pages_list %}
+    {% if post.title != null %}
+    {% if group == null or group == post.group %}
+    <div class="row">
+      <h4><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"> - {{ post.date | date: "%B %d, %Y" }}</time></a></h4>
+        </div>
+    {% endif %}
+    {% endif %}
+    <hr/>
+  {% endfor %}
+  {% assign pages_list = nil %}
+  {% assign group = nil %}
+{% endfor %}
+</div>

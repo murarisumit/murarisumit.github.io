@@ -111,7 +111,6 @@ body {
   margin: 20px 0;
 }
 .container a {
-  // color: 7A822;
   color: $theme-color;
 }
 .container a:hover {
@@ -185,34 +184,43 @@ body {
 /* Tags
 
 ---------------------------------------------------*/
-.post-tag:before {
-  content:"\f02c";
-  font-family:FontAwesome;
-  padding-right:.5em;
+.tag {
+    display:inline-block;
+    background: rgba(106,159,181,0.15);
+    color: $tag-color;
+    padding:0 .5rem;
+    margin-right:.5rem;
+    margin-top:.5rem;
+    margin-bottom:.5rem;
+    border-radius:4px;
+     // -webkit-transition:all 0.1s ease-in-out;
+     // -moz-transition:all 0.1s ease-in-out;
+     // transition:all 0.1s ease-in-out
+
+    &:hover {
+        color: $tag-color;
+        text-decoration: none;
+        transform: scale(1.07);
+    }
 }
 
-.post-tag {
- display:inline-block;
- background: rgba(106,159,181,0.15);
- color: $tag-color;
- padding:0 .5rem;
- margin-right:.5rem;
- margin-top:.5rem;
- margin-bottom:.5rem;
- border-radius:4px;
-/*  color: #333333; */
-/*  color: #ff9933; Saffron */
- -webkit-transition:all 0.1s ease-in-out;
- -moz-transition:all 0.1s ease-in-out;
- transition:all 0.1s ease-in-out
-}
+.category {
+    display: inline-block;
+    background: rgba(106,159,181,0.15);
+    color: $tag-color;
+    padding:0 .5rem;
+    margin-right:.5rem;
+    margin-top:.5rem;
+    margin-bottom:.5rem;
+    border-radius:4px;
 
-.post-tag:hover {
- color: $tag-color;
- text-decoration: none;
- transform: scale(1.07);
-}
+    &:hover {
+        color: $tag-color;
+        text-decoration: none;
+        transform: scale(1.07);
+    }
 
+}
 
 /* Footer 
 -------------------------------------------------- */

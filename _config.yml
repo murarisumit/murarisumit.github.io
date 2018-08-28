@@ -13,10 +13,13 @@ markdown: kramdown
 rdiscount:
        extensions: [smart]
 permalink: "/:title.html"
+# permalink: /:categories/:title/
 paginate: 5
 port: 3000
 safe: true
-local: false
+local: false  #Enable for github
+# Use css from local directory.
+# local: true
 
 # edit here to achieve your personal greatness
 url: https://sumit.murari.me

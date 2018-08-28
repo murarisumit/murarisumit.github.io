@@ -1,3 +1,5 @@
+This is available on https://sumit.murari.me and will be used to host blog only.
+
 
 # Please to keep the thoughts 
 

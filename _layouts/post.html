@@ -10,10 +10,22 @@ layout: layout
 	</div>
 	<div class="blog-title">
 		<h4>
-		{{ page.date | date: "%B %e, %Y" }}
+      <div class="date"> {{ page.date | date: "%B %e, %Y" }} </div>
 			&nbsp;&nbsp;
+      {% if post %}
+        {% assign categories = post.categories %}
+      {% else %}
+        {% assign categories = page.categories %}
+      {% endif %}
 			{% for tag in page.tags %}
-		    <span style="font-size: 100%;" class="post-tag"><b><a href="/posts.html#{{ tag }}"> {{ tag }} </a></b></span>
+        <div class="tag">
+          <i class="fa fa-tags"></i> <a href="/posts.html#{{ tag }}"> {{ tag }} </a>
+        </div>
+			{% endfor %}
+			{% for category in categories %}
+        <div class="category">
+          <i class="fa fa-pie-chart"></i><a href="/categories.html#{{ category }}"> {{ category }} </a>
+        </div>
 			{% endfor %}
 		</h4>
 	</div>

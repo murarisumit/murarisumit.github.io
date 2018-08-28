@@ -38,20 +38,28 @@ The purpose of this snippet is to list all the tags you have in your site.
 =======================
 {% endcomment %}
 <div class="container">
+  <div>
+    <h3 style="display:inline-block">...things I don't want to forget and some notes &nbsp &nbsp</h3>
+    <a style="display:inline; color:orange" href="{{ site.url }}/atom.xml" target="_blank"><i class="fa fa-feed fa-lg"></i></a>
+  </div>
+  <hr/>
+  {% for tag in tags %}
+      <div class="tag">
+        <i class="fa fa-tags"></i>
+        <a href="#{{ tag }}"> {{ tag }} </a>
+      &nbsp;&nbsp;
+      </div>
+  {% endfor %}
 
-<div>
-<h3 style="display:inline-block">...things I don't want to forget and some notes &nbsp &nbsp</h3>
-<a style="display:inline; color:orange" href="{{ site.url }}/atom.xml" target="_blank"><i class="fa fa-feed fa-lg"></i></a>
+  <hr/>
+  {% assign categories = site.categories %}
+  {% for category in categories %}
+    <div class="category">
+      <i class="fa fa-pie-chart"></i><a href="/categories.html#{{ category[0] }}"> {{ category[0] }} </a>
+    </div>
+  {% endfor %}
 </div>
 <hr/>
-{% for tag in tags %}
-		<span style="font-size: 100%;" class="post-tag"><b><a href="#{{ tag }}"> {{ tag }} </a></b></span>
-		&nbsp;&nbsp;
-{% endfor %}
-</div>
-
-<hr/>
-
 {% comment %}
 =======================
 The purpose of this snippet is to list all your posts posted with a certain tag.
@@ -59,14 +67,14 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 {% endcomment %}
 <div class="container">
 {% for tag in tags %}
-		<span><h4 style="text-align: center; text-transform: uppercase;" class="post-tag" id="{{ tag | slugify }}"> {{ tag }} </h4></span>
+    <span><h4 style="text-align: center; text-transform: uppercase;" class="post-tag" id="{{ tag | slugify }}"> {{ tag }} </h4></span>
     {% for post in site.posts %}
-			{% if post.tags contains tag %}
-					<div class="row">
-							<h4 style="text-align: center"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </h4>
-					</div>
-			{% endif %}
+      {% if post.tags contains tag %}
+          <div class="row">
+              <h4 style="text-align: center"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </h4>
+          </div>
+      {% endif %}
     {% endfor %}
-		<hr/>
+    <hr/>
 {% endfor %}
 </div>
