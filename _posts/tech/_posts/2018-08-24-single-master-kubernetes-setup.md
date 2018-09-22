@@ -5,8 +5,9 @@ date: '2016-04-24 12:00:00'
 layout: post
 tags:
 - kubernetes
-category:
 - container
+category:
+- tech
 ---
 
 This post is intend for setup for single master node kubernetes setup. It is written keeping _ubuntu_ as base OS in mind.

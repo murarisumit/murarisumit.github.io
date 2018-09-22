@@ -4,6 +4,8 @@ date: '2017-09-02 00:00:00 +0000'
 tags:
 - stocks
 layout: post
+category:
+- money 
 ---
 
 * Debt/Equity Ratio is a debt ratio used to measure a company's financial leverage.

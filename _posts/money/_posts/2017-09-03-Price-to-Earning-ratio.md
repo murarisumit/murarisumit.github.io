@@ -4,6 +4,8 @@ date: '2017-09-02 00:00:00 +0000'
 tags:
 - stocks
 layout: post
+category:
+- money 
 ---
 
 The price/earnings (often shortened to the P/E ratio or the PER) is the ratio of a company's stock price to the company's earnings per share. The ratio is used in valuing companies. <sup><a href="https://en.wikipedia.org/wiki/Price%E2%80%93earnings_ratio"> wikipedia</a><sup>

@@ -3,6 +3,8 @@ layout: post
 title: "Number, numerals and digits"
 date: 2018-08-11T17:12:21+00:00
 tags:
+ - numbers
+category:
  - maths
 ---
 

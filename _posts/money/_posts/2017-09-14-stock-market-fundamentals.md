@@ -1,9 +1,11 @@
 ---
 title: Stock market fundamentals
 date: '2017-09-14 08:00:00 +0000'
+layout: post
 tags:
 - stocks
-layout: post
+category:
+- money 
 ---
 
 **Shares** : Certificates or book entries representing ownership in a corporation or similar entity.

@@ -1,9 +1,11 @@
 ---
-title: 'Black hole P1: mass_vs_matter_weight'
+title: 'Black hole P1: mass vs matter vs weight'
 date: '2017-08-25 02:18:53 +0000'
 layout: post
 tags:
 - curiosity
+category:
+- physics
 ---
 
 This is the series of post I'm writing to understand what by black hole people mean .

@@ -4,6 +4,8 @@ date: 2017-06-15 00:00:00 Z
 tags:
 - books
 layout: post
+category:
+- books
 ---
 
 I've been always thinking and fascinated by old indian fables/stories where hero’s  are said to have done

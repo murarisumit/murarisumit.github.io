@@ -4,6 +4,8 @@ title: "Basic electricity Concepts"
 date: 2017-09-25T07:39:38+00:00
 tags:
  - curiosity
+category:
+- physics
 ---
 
 So for now(2018) we human believe that **Electricity** is flow of elctrons from -ve(explained below) terminal to +ve(explained below) terminal, it is just that. The simple way to  get this flow if by using the batteries, now lets start go to deep down.

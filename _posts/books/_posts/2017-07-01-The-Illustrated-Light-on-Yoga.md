@@ -4,6 +4,8 @@ date: '2016-08-11 00:00:00 +0000'
 layout: post
 tags:
 - books
+category:
+- books
 ---
 
 Yoga is one of the six orthodox systems of indian philisophy. It was collated, co-ordinated and systemimzed by Patanjali in his classical work, the *Yoga Sutras*. 
