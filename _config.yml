@@ -37,7 +37,6 @@ stackoverflow: 2735833
 google_analytics: UA-64117471-1
 feeds: true
 plugins:
-- jekyll-admin
 - jekyll-paginate
 
 # needed for travis-ci build
