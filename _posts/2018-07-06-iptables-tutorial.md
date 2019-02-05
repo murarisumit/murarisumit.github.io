@@ -170,14 +170,15 @@ Note:  IP masquerading allows you to use a private (reserved) IP network address
   * -j REJECT        : Action we will reject packets coming to this host
 
 * Route TCP packets from 192.168.1.2, port 12345 to 12356 to 123.123.123.123, Port 22
-  * ```
+    * 
+    ```
        $ iptables -t nat -A POSTROUTING -p tcp -s 192.168.1.2 \
        --sport 12345:12356 -d 123.123.123.123 --dport 22 [...]
     ```
-  * -A POSTROUTING       : Add to postrouting chain
-  * -p tcp               : protocol is tcp
-  * --sport 12345:12356  : source port
-  * --dport 22           : Destination port
+    * -A POSTROUTING       : Add to postrouting chain
+    * -p tcp               : protocol is tcp
+    * --sport 12345:12356  : source port
+    * --dport 22           : Destination port
 
 * Transparent proxy, redirecting packets from port 80 to 8080:
   * `iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-ports 8080`
@@ -187,4 +188,10 @@ Note:  IP masquerading allows you to use a private (reserved) IP network address
   * [https://www.tecmint.com/linux-iptables-firewall-rules-examples-commands/](https://www.tecmint.com/linux-iptables-firewall-rules-examples-commands/)
   * [https://www.thegeekstuff.com/2011/06/iptables-rules-examples/?utm_source=feedburner](https://www.thegeekstuff.com/2011/06/iptables-rules-examples/)
 
+---
+
+A picture I found at [https://stuffphilwrites.com/2014/09/iptables-processing-flowchart/](https://stuffphilwrites.com/2014/09/iptables-processing-flowchart/) was quite nice, it shows flow of packet.
+<img src="https://stuffphilwrites.com/wp-content/uploads/2018/11/FW-IDS-iptables-Flowchart-v2018-11-14.png" class="img-responsive" alt="iptables-flow"/>
+
+---
 
