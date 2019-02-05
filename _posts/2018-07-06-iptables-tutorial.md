@@ -36,13 +36,14 @@ There are five netfilter hooks that programs can register with. Tollowing hooks 
 
 ## IPTables Tables and Chains
 
-Iptables is userland tool that works with netfilter.
+iptables is userland tool that works with netfilter. Below diagram explains more about the relation between table, chains and rule.
 
-![packet_flow](/static/img/iptables-netfilter/nat-chains.gif)
+<img src="/static/img/iptables-netfilter/table-chain-rules.png" class="img-responsive" alt="table-chain-rule"/>
+
 
 ### Tables
 * The iptables firewall uses tables to organize its rules.
-*  For instance, if a rule deals with network address translation, it will be put into the nat table. If the rule is used to decide whether to allow the packet to continue to its destination, it would probably be added to the filter table.
+* For instance, if a rule deals with network address translation, it will be put into the nat table. If the rule is used to decide whether to allow the packet to continue to its destination, it would probably be added to the filter table.
 
 #### Available tables.
 
@@ -65,8 +66,10 @@ Iptables is userland tool that works with netfilter.
 
 ##### The Security Table : #TODO
 
-
 ### Chains
+
+
+![packet_flow](/static/img/iptables-netfilter/nat-chains.gif)
 * Within each iptables table, rules are further organized within separate "chains".
 * Chains basically determine when rules will be evaluated and packet goes through following chains
 
@@ -100,7 +103,7 @@ Iptables is userland tool that works with netfilter.
 ---
 ## IPTables Rules
 
-* Rules are placed within a specific chain of a specific table.
+* **Rules are placed within a specific chain of a specific table.**
 * As each chain is called, the packet in question will be checked against each rule within the chain in order.
 * As each chain is called, the packet in question will be checked against each rule within the chain in order.
 * Each rule has a __matching component__ and an __action component__.
