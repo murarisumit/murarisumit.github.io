@@ -11,7 +11,7 @@ category:
 
 ## Anger
 
-Today while I was sitting and was not happy with things happening around me, wasn't happy and just a thought came to my mind about 'anger' that I was feeling, just to take my mind away from current situation I paused and thought about anger, an 'emotion/feel' that I was feeling, a thought came that "anger is really great", I'm not usually get anger, if something happens, I think it as god's will or it happened for something good(and usually my life has been a nice ride) I usually doesn't get angry, this is what I think is one of thing that takes me back.
+Today while I was sitting and was not happy with things happening around me, wasn't happy and just a thought came to my mind about 'anger' that I was feeling, just to take my mind away from current situation I paused and thought about anger, an 'emotion/feel' that I was feeling, a thought came that "anger is really great", I'm chilled out, so this emotion usually comes to, if something happens, I think it as god's will or it happened for something good(and usually my life has been a nice ride) and move ahead, this is what I think is one of thing that takes me back(seen that people who show anger and taken more seriously, taking offence is now-a-days cool anyway)
 
 One more thinking, anger doesn’t mean shout you have to be rash to people, this is a way people bring anger out of them, some people cry to bring anger out, one of many ways to get this emotion out.
 
@@ -21,7 +21,7 @@ Love is another most powerful emotion, a mother sacrifices herself because of th
 
 Anger on the other side will make me a bit small, but it can be daily driver that will take you to destination. Shouting when anger comes in is a sign of weakness IMO, it’s the easiest way to get it out. Sumit you shoudn't do this.
 
-Like all emotions anger is a storm which does not stay. It moves and shifts and dissipates once the event it done, but you can carry it along like baggage to remind and keep to fixated to something. Life without baggage is really nice, but it can be like gun to police or woollen clothes in snow, they help you but it's pain to carry them all along, but they serve too, decision is mine.
+Like all emotions anger is a storm which does not stay. It moves and shifts and dissipates once the event it done, but you can carry it **along like baggage** to remind and keep to fixated to something. Life without baggage is really nice, but it can be like gun to police or woollen clothes in snow, they can help you but it's pain to carry them all along, but they serve too.
 
 What I need to worry is how react when just emotions come to me.
 
