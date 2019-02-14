@@ -25,7 +25,7 @@ local: false  #Enable for github
 url: https://sumit.murari.me
 baseurl:
 author: Sumit Murari
-description: Place to keep some thoughts
+description: Place to keep my silly thoughts
 avatar: profile.png
 email: sumit@murari.me
 email_feedback: true
