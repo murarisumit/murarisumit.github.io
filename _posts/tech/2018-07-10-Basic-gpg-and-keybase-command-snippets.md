@@ -4,6 +4,8 @@ date: '2018-07-10 00:00:00 +0000'
 layout: post
 tags:
 - crypto
+category:
+- tech
 ---
 
 I use keybase for keeping my pgp keys, "it maps your identity to your public keys, and vice versa", below are few command snippets
@@ -30,6 +32,12 @@ I use keybase for keeping my pgp keys, "it maps your identity to your public key
 * Use gpg to edit key, for adding or removing identities:
   * `gpg --edit-key myname@keybase.io` 
   * `gpg --edit-key email@id.here` 
+
+  * List the user ids:
+      * `gpg> uid`
+
+  * Select the user id:
+      * `gpg> uid 2`
 
   * Adding new uid to private key
     * `gpg> adduid`
