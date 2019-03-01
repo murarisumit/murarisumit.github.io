@@ -64,7 +64,7 @@ N(123); // Illegal!
 
 So now this makes sense: `If it walks like a duck and talks like a duck, it must be a duck`
 
-So in python
+So in python it would be
 
 ```
 def f(x):
