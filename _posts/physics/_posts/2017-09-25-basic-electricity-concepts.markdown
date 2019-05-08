@@ -3,7 +3,7 @@ layout: post
 title: "Basic electricity Concepts"
 date: 2017-09-25T07:39:38+00:00
 tags:
- - curiosity
+- electricity
 category:
 - physics
 ---
