@@ -1,5 +1,5 @@
 ---
-title: GPG and Keybase basic command snippets
+title: gpg and keybase basic command snippets
 date: '2018-07-10 00:00:00 +0000'
 layout: post
 tags:
@@ -8,7 +8,8 @@ category:
 - tech
 ---
 
-I use keybase for keeping my pgp keys, "it maps your identity to your public keys, and vice versa", below are few command snippets
+Keybase provides key directory service, basically "it maps your identity to your public keys, and vice versa". Since it has a pgp key directory service, below are snippets that we can use to play with keybase and gpg2.
+
 
 * List gpg keys:
   * `keybase pgp list`
@@ -56,6 +57,9 @@ I use keybase for keeping my pgp keys, "it maps your identity to your public key
   ▶ INFO Posting update for key xxxxxxxxxxxxxxxxxxx.
   ▶ INFO Update succeeded for key xxxxxxxxxxxxxxxxxxxxx.
   ```  
+
+---
+For more gpg commands: [https://medium.com/@acparas/gpg-quickstart-guide-d01f005ca99](https://medium.com/@acparas/gpg-quickstart-guide-d01f005ca99)
 
 ---
 Reference:
