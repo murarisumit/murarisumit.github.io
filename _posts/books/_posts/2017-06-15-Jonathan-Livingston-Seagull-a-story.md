@@ -20,7 +20,7 @@ you'd have they eyes of an owl!
 you would have charts for brains!
 you'd have a falcon's short wings. </pre> </center>
 
-It's small book for 127 pages, I finished it in 2 sittings. Small and fascinating story to tell.
+It's small book of 127 pages. Small and fascinating story to tell.
 
 Story starts with Jonathon Seagull who pushes his limits than normal gull, and then teaches the same to
 Flecther and other student, after jonathon gone fletcher teaches some gulls how to push their limits, during the course author tries to
