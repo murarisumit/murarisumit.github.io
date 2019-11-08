@@ -34,7 +34,7 @@ github: murarisumit
 linkedin: murarisumit
 stackoverflow: 2735833
 # stackoverflow_story: murarisumit
-google_analytics: UA-64117471-1
+# google_analytics: UA-64117471-1
 feeds: true
 plugins:
 - jekyll-paginate
