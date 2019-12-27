@@ -8,22 +8,21 @@ category:
 - tech
 ---
 
-Link for reference to set up raspberry pi 3B+ in headless mode:
+Below is archive link which has reference on how to set up raspberry pi 3B+ in headless mode. It will will also help in setting up ssh and wifi if required.
+* [https://web.archive.org/web/20191227222211](https://web.archive.org/web/20191227222211/https://desertbot.io/blog/headless-raspberry-pi-3-bplus-ssh-wifi-setup/)
 
-* https://web.archive.org/web/20191227222211/https://desertbot.io/blog/headless-raspberry-pi-3-bplus-ssh-wifi-setup/
 
-Above reference will also help in setting up ssh and wifi if required.
-
-To update the default password:
+**To update the default password**: 
 * ssh to rpi using instruction above
 * Use `passwd` command to update the password or add your ssh public key to `~/.ssh/authorized_keys` folder.
 
-You can also you public keys for connected to ssh, which give seamless way to login without password hassle, but you need to have ssh keys to login.
+**To add ssh keys for login**: You can also your public keys for ssh, which give seamless way to login without password hassle, but then you need to have ssh keys to login.
 * Create a $HOME/.ssh folder: `mkdir ~/.ssh`
 * Create a file called `authorized_keys`: `touch authorized_keys`
 * Add you public key to file: `cat <pub_key> >> authorized_keys`
 
 
+---
 
 Further reading:
 * How does .local work: [https://en.wikipedia.org/wiki/.local](https://en.wikipedia.org/wiki/.local)
