@@ -9,6 +9,10 @@ freely hosted in [Github pages](https://pages.github.com/).
 * For local work, use the site variable `local: true` in config.yml, it'll use static bootstrap and jquery libs.
 
 
+To check change locally:
+
+* `docker-compose up` or `make serve`
+
 
 To create a new draft:
 

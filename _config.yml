@@ -15,7 +15,6 @@ rdiscount:
 permalink: "/:title.html"
 # permalink: /:categories/:title/
 paginate: 5
-port: 3000
 safe: true
 local: false  #Enable for github
 # Use css from local directory.

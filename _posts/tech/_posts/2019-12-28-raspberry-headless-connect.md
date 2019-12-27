@@ -1,6 +1,6 @@
 ---
 title: Raspberry pi 3Bplus setup headless 
-date: 2019-12-28 00:00:00 Z
+date: 2019-12-27 00:00:00 Z
 layout: post
 tags:
 - raspberrypi
