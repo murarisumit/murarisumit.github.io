@@ -9,7 +9,7 @@ $theme-color: #428bca; // blue
 
 $background-color: #ffffff;
 $navbar-text-color: #6b6b6b;
-$social-text-color: #000000;
+$social-text-color: #0b5da4;
 $tag-color: #000000;
 
 
@@ -155,11 +155,20 @@ h3 {
 }
 .social {
   padding-top: 12px;
-  word-spacing: 25px;
+  justify-content: center;
+  display: flex;
 }
-.social h4 > a {
+
+.social a {
   color: $social-text-color;
+  margin-left: 2%;
+  margin-right: 2%;
 }
+
+.social a > i {
+  font-size: 1.3em;
+}
+
 .avatar {
   padding-top: 5%;
 }
