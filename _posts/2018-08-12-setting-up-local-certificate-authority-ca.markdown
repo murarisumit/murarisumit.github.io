@@ -7,11 +7,12 @@ tags:
 ---
 
 Here we will be creating local certificate authority.
-    1. Create keys for CA
-    2. Add the cert to trusted keychain.
-    3. Now keys signed with keys of CA will work without issues.
-    4. Create new certs
-    5. Sign the certs using our created CA
+
+1. Create keys for CA
+2. Add the cert to trusted keychain.
+3. Now keys signed with keys of CA will work without issues.
+4. Create new certs
+5. Sign the certs using our created CA
 
 Used commands :
 
