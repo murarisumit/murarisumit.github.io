@@ -50,10 +50,10 @@ It can be used with number of options with it. Three main options to use with gi
 * --mixed
 
 * `git reset --soft <ref>`:
-    * It reset the current commit to specified `<ref>`
+    * It reset the current commit to specified `<ref>`(sha ID).
     * If nothing is specified in `<ref>`, it takes as HEAD.
-    * --soft doesn't touch the index file or the working tree at all (but resets the head to <commit>.
-    * `git reset --soft` or `git reset --soft HEAD`: It does nothing, because is checks out HEAD to HEAD again.
+    * --soft doesn't touch the index file or the working tree at all (but resets the head to <commit>)
+    * `git reset --soft` or `git reset --soft HEAD`: **It does nothing, because is checks out HEAD to HEAD again**.
     * `git reset --soft @~1`: It would reset the HEAD of current pointed branch to parent of current branch, it won't touch staging/index area or working directory.
     * This guy just moves branch-pointer to where you want it to, and does nothing else
 
