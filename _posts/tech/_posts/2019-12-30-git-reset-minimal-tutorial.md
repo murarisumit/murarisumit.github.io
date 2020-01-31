@@ -10,6 +10,8 @@ category:
 
 Before getting ahead lets clear these three fundamental things in git.
 
+Git is version control system, or in simple defination(bit vaguely) it helps **to create point in time snapshots of current directory**.
+
 1. HEAD: It is a symbolic reference pointing to wherever you are in your commit history.
 
 2. Index: The index, also known as the staging area, is the set of files that will become the next commit. It is also the commit that will become HEAD’s parent.
