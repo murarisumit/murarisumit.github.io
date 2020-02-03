@@ -10,14 +10,6 @@ Reference:
 * This is original article, I read from. Kept here for personal refrence.[http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html](http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html)
 
 
-### Opening
-
-Linux load averages track not just runnable tasks, but also tasks in the uninterruptible sleep state. Why? I've never seen an explanation. In this post I'll solve this mystery, and summarize load averages as a reference for everyone trying to interpret them.
-
-Linux load averages are "system load averages" that show the running thread (task) demand on the system as an average number of running plus waiting threads. This measures demand, which can be greater than what the system is currently processing. Most tools show three averages, for 1, 5, and 15 minutes:
-
-
-
 ### Linux Uninterruptible Tasks
 
 * When load averages first appeared in Linux, they reflected CPU demand, as with other operating systems. 
@@ -27,26 +19,7 @@ Linux load averages are "system load averages" that show the running thread (tas
 Adding the uninterruptible state means that __Linux load averages can increase due to a disk (or NFS) I/O workload, not just CPU demand__.
 
 
-### Chase
-
-He was looking for the code with made the change in system average file.
-
-* He checked `loadavg.c`, but the change was older than 2005, when Linus imported Linux 2.6.12-rc2.
-* He checked historical changes in linux repo, but wasn't able to find anything up there.
-* He searched tarballs on kernel.org and found that it had changed by 0.99.15, and not by 0.99.13 – however, the tarball for 0.99.14 was missing.
-* He found it elsewhere, and confirmed that the change was in Linux 0.99 patchlevel 14, Nov 1993, but the changelog was
-
-        "Changes to the last official release (p13) are too numerous to mention (or even to remember)..." – Linus
-
-* Based on the date, he looked up the kernel mailing list archives to find the actual patch, but the oldest email available is from June 1995, when the sysadmin writes:
-
-        "While working on a system to make these mailing archives scale more effecitvely I accidently destroyed the current set of archives (ah whoops)."
-
-* He found some older linux-devel mailing list archives, rescued from server backups, often stored as tarballs of digests. I searched over 6,000 digests containing over 98,000 emails, 30,000 of which were from 1993. But it was somehow missing from all of them.
-
 ### The origin of uninterruptible
-
-Fortunately, he did finally find the change, in a compressed mailbox file from 1993 on oldlinux.org. Here it is:
 
         From: Matthias Urlichs <urlichs@smurf.sub.org>
         Subject: Load average broken ?
@@ -96,25 +69,12 @@ His example of using a slower swap disk makes sense: by degrading the system's p
 * Perhaps the real problem all along is that the words "load averages" are about as ambiguous as "I/O". Which type of I/O? Disk I/O? File system I/O? Network I/O? 
 * Likewise, which load averages? CPU load averages? System load averages? Clarifying it this way lets me make sense of it like this:
 
-
         On Linux, load averages are (or try to be) "system load averages", for the system as a whole, measuring the number of threads that are working and waiting to work (CPU, disk, uninterruptible locks). Put differently, it measures the number of threads that aren't completely idle. Advantage: includes demand for different resources.
         On other OSes, load averages are "CPU load averages", measuring the number of CPU running + CPU runnable threads. Advantage: can be easier to understand and reason about (for CPUs only).
 
 Note that there's another possible type: "physical resource load averages", which would include load for physical resources only (CPU + disk).
 
 Perhaps one day we'll add additional load averages to Linux, and let the user choose what they want to use: a separate "CPU load averages", "disk load averages", "network load averages", etc. Or just use different metrics altogether.
-
-
-### Better tools for measuring CPUs.
-
-* mpstat: To monitor individual processor performance, issue following command
-  * per-CPU utilization: eg, using `mpstat -P ALL 1`
-* iostat : The iostat command reports Central Processing Unit (CPU) statistics and input/output statistics for devices and partitions. It can be use to find out your system's average CPU utilization since the last reboot.
-  * `iostat`
-* vmstat: CPU run queue length: eg, using vmstat 1 and the 'r' column
-
-$ iostat
-mpstat -P ALL
 
 
 
@@ -124,9 +84,7 @@ In 1993, a Linux engineer found a nonintuitive case with load averages, and with
 
 The use of the uninterruptible state has since grown in the Linux kernel, and nowadays includes uninterruptible lock primitives. If the load average is a measure of demand in terms of running and waiting threads (and not strictly threads wanting hardware resources), then they are still working the way we want them to.
 
-In this post, I dug up the Linux load average patch from 1993 – which was surprisingly difficult to find – containing the original explanation by the author. I also measured stack traces and time in the uninterruptible state using bcc/eBPF on a modern Linux system, and visualized this time as an off-CPU flame graph. This visualization provides many examples of uninterruptible sleeps, and can be generated whenever needed to explain unusually high load averages. I also proposed other metrics you can use to understand system load in more detail, instead of load averages.
-
-I'll finish by quoting from a comment at the top of `kernel/sched/loadavg.c` in the Linux source, by scheduler maintainer Peter Zijlstra:
+As original author post this also finishes by quoting from a comment at the top of `kernel/sched/loadavg.c` in the Linux source, by scheduler maintainer Peter Zijlstra:
 
         This file contains the magic bits required to compute the global loadavg
         figure. Its a silly number but people think its important. We go through
