@@ -21,6 +21,7 @@
       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous"/>
     {% endif %}
 
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -42,7 +43,7 @@
     {% endif %}
 
     <!-- Google Analytics --> 
-    {% include analytics.html %} 
+    <!-- {% include analytics.html %}  -->
   </head> 
 <!-- Main Body--> 
   <body> <!-- Wrap all page content here --> 
@@ -68,16 +69,17 @@
     {% else %}
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
     {% endif %}
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="{{ site.baseurl }}static/js/main.js"></script>
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="{{ site.baseurl }}static/js/ie10-viewport-bug-workaround.js"></script>
 
     <!-- Ref to collapse list if you want to use it: http://www.howtocreate.co.uk/tutorials/jsexamples/listCollapseExample.html. -->
     <script type="text/javascript" src="/static/js/listCollapse.js"></script>
     <script type="text/javascript">
-    window.onload = function () {
-
+      window.onload = function () {
       //choose one of these options
 
       //option 1 - no auto-child-collapse
@@ -87,7 +89,6 @@
       compactMenu('collapselist1',true,'&plusmn; ');
       compactMenu('collapselist2',true,'&plusmn; ');
       compactMenu('collapselist3',true,'&plusmn; ');
-
     }
     </script>
   </body>
