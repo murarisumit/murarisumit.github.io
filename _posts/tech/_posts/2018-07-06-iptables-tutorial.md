@@ -5,6 +5,8 @@ tags:
 - gnu-linux
 - networking
 layout: post
+category:
+- tech
 ---
 
 Reference:

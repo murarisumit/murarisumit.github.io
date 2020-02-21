@@ -4,6 +4,8 @@ title: "Sudoers file notes"
 date: 2018-01-15T19:33:31+00:00
 tags:
  - gnu-linux
+category:
+- tech
 ---
 
 Sudo is a program that allows users to 

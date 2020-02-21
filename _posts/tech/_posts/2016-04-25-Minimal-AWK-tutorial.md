@@ -4,6 +4,8 @@ date: '2016-04-24 12:00:00'
 layout: post
 tags:
 - gnu-linux
+category:
+- tech
 ---
 
 AWK is an interpreted programming language. It's designed for text processing. Input is read line by line and awk script/command is executed.

@@ -3,7 +3,9 @@ layout: post
 title: "Tmux Cheatsheet"
 date: 2018-01-15T08:40:16+00:00
 tags:
- - gnu-linux
+ - tmux
+category:
+- tech
 ---
 Kept here for personal reference. Link for original author in reference.
 

@@ -4,6 +4,8 @@ date: '2017-08-25 02:18:53 +0000'
 layout: post
 tags:
 - gnu-linux
+category:
+- tech
 ---
 
 From the man page:  **tcpdump - dump traffic on a network**

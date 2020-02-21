@@ -3,6 +3,8 @@ title: FIND minimal tutorial
 date: 2017-03-07 00:00:00 Z
 tags:
 - gnu-linux
+category:
+- tech
 layout: post
 ---
 

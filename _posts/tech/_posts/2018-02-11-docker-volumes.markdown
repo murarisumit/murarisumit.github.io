@@ -4,6 +4,8 @@ title: "Docker Volumes"
 date: 2018-02-11T14:48:13+00:00
 tags:
  - docker
+category:
+- tech
 ---
 
 Note: Take this post and pinch of salt, this is for personal reference and copy pasted commands. Will improve and update this post later.

@@ -5,6 +5,8 @@ date: 2018-06-03
 tags:
  - tricks
  - firefox
+category:
+- tech
 ---
 
 * ##### Search from bookmarks only:

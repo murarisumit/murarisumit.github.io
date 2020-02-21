@@ -3,6 +3,8 @@ title: UFW basic command snippets
 date: 2016-09-08 00:00:00 Z
 tags:
 - gnu-linux
+category:
+- tech
 layout: post
 ---
 

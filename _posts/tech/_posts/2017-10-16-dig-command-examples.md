@@ -4,6 +4,8 @@ date: '2017-10-16 00:00:00 +0000'
 tags:
 - gnu-linux
 layout: post
+category:
+- tech
 ---
 
 ##### `dig` is basic command to fetch details from to nameservers

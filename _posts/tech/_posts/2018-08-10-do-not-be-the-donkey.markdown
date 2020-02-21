@@ -4,6 +4,8 @@ title: "Do Not Be the Donkey"
 date: 2018-08-10T22:16:00+00:00
 tags:
  - self-note
+category:
+- tech
 ---
 
 

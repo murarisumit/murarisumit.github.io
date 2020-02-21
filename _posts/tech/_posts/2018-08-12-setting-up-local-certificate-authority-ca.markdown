@@ -4,6 +4,8 @@ title: "Local Certificate Authority(CA) for self sign certificate"
 date: 2018-08-12T11:14:25+00:00
 tags:
  - crypto
+category:
+- tech
 ---
 
 Here we will be creating local certificate authority.

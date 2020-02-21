@@ -4,6 +4,9 @@ title: "Youtube filter list"
 date: 2016-07-26 00:00:00 Z
 tags:
 - ublock-origin
+- browsers
+category:
+- tech
 ---
 
 I usually end-up viewing 5 videos, when I just intended to watch on 1. It takes too lot of time of my life, so using ublock-origin filters to remove all annoyance I feel up there. 

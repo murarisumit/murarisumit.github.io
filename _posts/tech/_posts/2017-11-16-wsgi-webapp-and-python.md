@@ -4,6 +4,8 @@ date: '2017-11-15 00:00:00 +0000'
 tags:
 - python
 layout: post
+category:
+- tech
 ---
 
 WSGI : Stands for Web server gateway interface.

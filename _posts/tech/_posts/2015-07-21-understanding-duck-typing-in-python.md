@@ -5,6 +5,8 @@ last_modified_at: 2017-06-16 22:06:00
 layout: post
 tags:
   - python
+category:
+- tech
 ---
 
 

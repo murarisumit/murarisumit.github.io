@@ -4,6 +4,8 @@ date: 2016-08-07 00:00:00
 layout: post
 tags:
   - gnu-linux
+category:
+- tech
 ---
 
 

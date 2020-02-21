@@ -4,6 +4,8 @@ title: "File Operation Using 'os' Package"
 date: 2018-02-02T09:25:11+00:00
 tags:
  - python
+category:
+- tech
 ---
 
 Here I'll be using [os](https://docs.python.org/3/library/os.html) package, it provides operating system interfaces to talk to file system. To read more about it, follow about link.

@@ -4,6 +4,8 @@ date: '2017-11-11 00:00:00 +0000'
 tags:
 - python
 layout: post
+category:
+- tech
 ---
 
 > Most of it has content from [stackoverflow question](https://stackoverflow.com/questions/7948494/whats-the-difference-between-a-python-module-and-a-python-package).
