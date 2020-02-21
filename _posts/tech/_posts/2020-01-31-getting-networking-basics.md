@@ -1,5 +1,5 @@
 ---
-tvtle: Getting networking basics revised
+title: OSI model
 date: 2020-01-31 00:00:00 Z
 layout: post
 tags:
