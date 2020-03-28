@@ -5,14 +5,18 @@ layout: home
 <section id="about">
 	<div class="container">
 	  <div class="avatar">
-		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="whoami">
+      <img class="img-circle" src="static/img/{{ site.avatar }}" alt="whoami">
 	  </div>
-	  <center>
-      <h3>Hi, I'm {{ site.author }}</h3>
-      <h3> Love playing with computers, economics and open source</h3>
-      <h3> Interested in physics, mathematics, badmintion and books  </h3>
-      <h3>Like things decentralized</h3>
-    </center>
-	  {% include social.html %}
+    <div class="index-aboutme">
+      <center>
+        <h3>Hi, I'm {{ site.author }}, a Software Engineer</h3>
+        <h3>Love playing with computers</h3>
+        <h3> Interested in physics, mathematics, badmintion and books  </h3>
+        <h3>Like things decentralized</h3>
+			</center>
+    </div>
+    <br/>
+    {% include social.html %} <br/>
 	</div>
+
 </section>

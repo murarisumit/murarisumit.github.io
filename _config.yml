@@ -16,17 +16,17 @@ permalink: "/:title.html"
 # permalink: /:categories/:title/
 paginate: 5
 safe: true
-local: false  #Enable for github
+# local: false  #Enable for github
 # Use css from local directory.
-# local: true
+local: false
 
 # edit here to achieve your personal greatness
-url: https://sumit.murari.me
+url: https://www.yinyangi.in
 baseurl:
 author: Sumit Murari
 description: Place to keep my silly thoughts
 avatar: profile.png
-email: sumit@murari.me
+email: sumit.yinyangi.in@gmail.com
 email_feedback: true
 github: murarisumit
 # aboutme: murarisumit

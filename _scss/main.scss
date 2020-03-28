@@ -6,7 +6,6 @@
 // $theme-color:  #009874; // green
 // $theme-color:  #ec4908; // orange
 $theme-color: #428bca; // blue
-
 $background-color: #ffffff;
 $navbar-text-color: #6b6b6b;
 $social-text-color: #0b5da4;
@@ -90,6 +89,8 @@ h3 {
 .navbar-default .navbar-link:hover {
   color: $navbar-text-color;
 }
+
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: $navbar-text-color;
@@ -192,6 +193,10 @@ h3 {
   text-align: left;
   line-height: 30px;
   font-size: 1.2em;
+}
+
+.index-aboutme h4 {
+    font-size: 3.5vh;
 }
 
 /* Tags
