@@ -6,6 +6,7 @@ tags:
 - test2
 category:
 - tech
+date: 2020-06-05
 ---
 
 Sample post this is the post
