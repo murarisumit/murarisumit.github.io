@@ -1,0 +1,22 @@
+---
+label: post
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: layout
+  label: layout
+  config:
+    required: true
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: category
+  label: category

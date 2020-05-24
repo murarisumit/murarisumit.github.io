@@ -21,12 +21,12 @@ safe: true
 local: false
 
 # edit here to achieve your personal greatness
-url: https://yinyangi.in
-baseurl: /blog
+url: https://www.yinyangi.in
+baseurl:
 author: Sumit Murari
 description: Thoughts bin
 avatar: profile.png
-email: mail@yinyangi.in
+email: sumit.yinyangi.in@gmail.com
 email_feedback: true
 github: murarisumit
 # aboutme: murarisumit
