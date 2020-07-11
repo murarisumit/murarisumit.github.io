@@ -83,4 +83,5 @@ except AttributeError:
     dog.woof()
 ```
 
+---
 Reference: [http://ericlippert.com/2014/01/02/what-is-duck-typing](http://ericlippert.com/2014/01/02/what-is-duck-typing)
