@@ -21,18 +21,18 @@ safe: true
 local: false
 
 # edit here to achieve your personal greatness
-url: https://www.yinyangi.in
+url: https://www.murarisumit.in
 baseurl:
 author: Sumit Murari
 description: Thoughts bin
 avatar: profile.png
-email: sumit.yinyangi.in@gmail.com
+email: email@murarisumit.in
 email_feedback: true
 github: murarisumit
 # aboutme: murarisumit
 linkedin: murarisumit
 stackoverflow: 2735833
-# stackoverflow_story: murarisumit
+stackoverflow_story: murarisumit
 # google_analytics: UA-64117471-1
 feeds: true
 plugins:
