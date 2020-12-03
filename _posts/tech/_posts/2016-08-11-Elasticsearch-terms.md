@@ -47,14 +47,22 @@ It can be one of 4 types.
 > * Type has a name and a mapping and each document belongs to some index and is of certain type.
 > * A document is a basic unit of information, json data you see is a document.
 
+* **Lucene**
+
 
 * **Shard**
-    * Shard is basically lucene index(not elasticsearch index).
-    * Shards are shared across the node to provide distributed search(they're are part of a index).
+    * Each Shard is as instance lucene index(not elasticsearch index), lucene provides searching and indexing feature, https://lucene.apache.org/
+    * Shard/lucene index are shared across the nodes to provide distributed search(they're are part of a index).
+    * When new data is written to shard, it creates new lucene segment.
+      * The Lucene index is split into smaller chunks called segments. Each segment is its own index. Lucene searches all of them in sequence
+      * Ref: https://stackoverflow.com/questions/2703432/what-are-segments-in-lucene
     * Shards are of two types; *Primay*, *Replica*.
     * Primary's are the one that you can specify only once while creating the index, and replica's are copy of primary shards, which can be altered after index creation.
     * Every time you index a document, elasticsearch will decide which primary shard is supposed to hold that document and will index it there. **Primary shards are not copy of the data, they are the data!**
     * Every elasticsearch index is composed of at least one primary shard, since that's where the data is stored.
+    * Behind the scene elasticsearch merges segments to larger segments
+    * Shard size can vary but from es documentation: Avoid having very large shards as this can negatively affect the cluster's ability to recover from failure. 
+    * Shard/Lucene Index can be of any size but 50GB is often quoted as a limit that has been seen to work for a variety of use-cases(Taken from ES website).
    
 	 
 * **Replica**
@@ -62,8 +70,6 @@ It can be one of 4 types.
     * Replicas are used to increase search performance or for fail-over purpose.
 	* Replica is never allocated on the same node where their primary is.
 	* We don't play with shard directly other than specifiying config values for **primary shard** and **replicas**
-
-
 
 
 
@@ -77,5 +83,5 @@ It can be one of 4 types.
 * [https://stackoverflow.com/questions/15025876/what-is-an-index-in-elasticsearch](https://stackoverflow.com/questions/15025876/what-is-an-index-in-elasticsearch)
 * [http://cpratt.co/how-many-shards-should-elasticsearch-indexes-have/](https://http://cpratt.co/how-many-shards-should-elasticsearch-indexes-have/)
 
-
+* Avoid having very large shards as this can negatively affect the cluster's ability to recover from failure. There is no fixed limit on how large shards can be, but a shard size of 50GB is often quoted as a limit that has been seen to work for a variety of use-cases.
 
