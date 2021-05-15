@@ -1,5 +1,5 @@
 ---
-title: Murarisumit.Github.Io
+title: Learner, hopefully for life.
 timezone: Asia/Kolkata
 collections:
   posts:
@@ -8,3 +8,40 @@ collections:
   uploads:
     title: Uploads
     output: true
+
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+       extensions: [smart]
+permalink: "/:title.html"
+# permalink: /:categories/:title/
+paginate: 5
+safe: true
+# local: false  #Enable for github
+# Use css from local directory.
+local: false
+
+# edit here to achieve your personal greatness
+url: https://www.murarisumit.in
+baseurl:
+author: Sumit Murari
+description: Thoughts bin
+avatar: profile.png
+email: email@murarisumit.in
+email_feedback: true
+github: murarisumit
+# aboutme: murarisumit
+linkedin: murarisumit
+stackoverflow_story: murarisumit
+# google_analytics: UA-64117471-1
+feeds: true
+plugins:
+- jekyll-paginate
+
+# needed for travis-ci build
+exclude: [vendor]
+
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir: _scss
+  style: :compressed
