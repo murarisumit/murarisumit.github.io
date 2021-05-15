@@ -1,9 +1,10 @@
 ---
-title: Some geometry concepts. 
-layout: post
+title: Some geometry concepts.
+date: 2017-11-01 00:00:00 +05:30
 tags:
 - curiosity
-- geometry 
+- geometry
+layout: post
 ---
 
 Some basic questions in geometry.

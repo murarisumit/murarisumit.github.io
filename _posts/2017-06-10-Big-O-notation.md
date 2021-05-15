@@ -1,9 +1,9 @@
 ---
-layout: post
 title: A beginner's guide to Big O notation
-date: 2017-06-10 00:00:00 Z
+date: 2017-06-10 05:30:00 +05:30
 tags:
 - data-structures
+layout: post
 ---
 
 Big O notation is used to describe the performance or complexity of an algorithm .

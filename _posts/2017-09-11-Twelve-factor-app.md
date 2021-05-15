@@ -1,6 +1,6 @@
 ---
-title:  12 factor; Methodology for software development
-date: '2017-09-11 00:00:00 +0000'
+title: 12 factor; Methodology for software development
+date: 2017-09-11 05:30:00 +05:30
 tags:
 - software-development
 layout: post

@@ -1,8 +1,9 @@
 ---
 title: Why humans are different from other animals
-tags: thoughts
+date: 2017-08-20 01:40:36 +05:30
+tags:
+- thoughts
 layout: post
-date: '2017-08-20 01:40:36'
 ---
 
 Read this thought in the book "The GIRL who CHOSE" by Devdutt Pattanaik. He wrote --

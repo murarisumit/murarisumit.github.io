@@ -1,9 +1,9 @@
 ---
-title: "Basic virtualbox networking modes"
-date: 2017-02-21 04:42:25 Z
-layout: post
+title: Basic virtualbox networking modes
+date: 2017-02-21 10:12:25 +05:30
 tags:
 - virtualbox
+layout: post
 ---
 
 Virtualbox has various mode of networking between host-guest and guest-guest, few basic modes are as follows.

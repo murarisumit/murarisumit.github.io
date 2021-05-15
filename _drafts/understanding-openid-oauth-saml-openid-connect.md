@@ -1,6 +1,6 @@
 ---
 title: Understanding Federated Identity protocols
-date: '2017-09-11 00:00:00 +0000'
+date: 2017-09-11 05:30:00 +05:30
 tags:
 - tech
 layout: post
